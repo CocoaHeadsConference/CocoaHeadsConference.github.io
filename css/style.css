@@ -1272,7 +1272,7 @@ header .main-header .header-info .cart a span {
 }
 
 .daily-event .nav-pills>li {
-    margin-bottom: 133px;
+    margin-bottom: 128px;
 }
 
 
@@ -4881,6 +4881,10 @@ body.popup-visible{
 
 .avatar12 {
     background-image: url(../images/team/vinicius-carvalho.jpg);
+} 
+
+.avatar13 {
+    background-image: url(../images/team/juliana-salgado.jpg);
 } 
 
 
