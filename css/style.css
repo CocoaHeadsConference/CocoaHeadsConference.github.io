@@ -272,7 +272,6 @@ header .main-header .header-info .cart a span {
 .main-header .nav-outer {
     position: relative;
     float: right;
-    /*padding-right: 110px;*/
 }
 
 .main-header.stricky-fixed {
@@ -1116,10 +1115,6 @@ header .main-header .header-info .cart a span {
     font-size: 15px;
     border-right: 0px;
 }
-
-/*.event-tablist li.item.active {
-    background-color: ##363f4a;
-}*/
 
 .daily-event .event-tablist li:last-child {
     border-right: 1px solid #ececec;
@@ -4811,7 +4806,6 @@ body.popup-visible{
 }
 
 .folio {
-    /*max-width: 500px;*/
     height: auto;
     text-align: center;
     padding: 0px;
@@ -4823,7 +4817,6 @@ body.popup-visible{
 }
 
 .avatar {
-    /*background-image: url(../images/team/francisco-perrotta.jpg);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #ffffff;
@@ -5082,7 +5075,6 @@ a.social-btn:hover {
     top: 0px;
     width: 100%;
     height: 100%;
-    /*background-color: #373F4A;*/
     background:url(../images/overly/white-splash.png) center center no-repeat;
     background-size: cover;
     color: #fff;
