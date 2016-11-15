@@ -4879,8 +4879,11 @@ body.popup-visible{
 
 .avatar13 {
     background-image: url(../images/team/juliana-salgado.jpg);
-} 
+}
 
+.avatar14 {
+    background-image: url(../images/team/igor-ferreira.jpg);
+}  
 
 .sp-name {
     border-bottom: solid 1px rgba(33, 39, 57, 0.15);
