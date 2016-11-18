@@ -4826,11 +4826,11 @@ body.popup-visible{
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin: 0 auto;
+    background-size: 100%;
 }
 
 .avatar1 {
     background-image: url(../images/team/francesco-perrotti.jpg);
-    background-size: 100%;
 }
 
 .avatar2 {
