@@ -243,7 +243,6 @@
 			"title": "Engenheiro de Software Sr no MercadoPago.com",
 			"bio": "",
 			"citation": "",
-			"twitterHandle": "",
 			"linkedinHandler": "",
 			"githubHandler": ""
 		},
@@ -251,8 +250,8 @@
 			"id": 15,
 			"name": "John Calistro",
 			"image": "images/team/john-calistro.png",
-			"title": "Coder, Geek and a bit of hacker",
-			"bio": "",
+			"title": "Branch Evangelist",
+			"bio": "Evangelista da Branch, co-organizador das comunidades CocoaHeads, Twitter Developers, FB Developers Circle e Mobile Growth, empreendedor, formado em contabilidade e processamento de dados, graduando em Sistemas da Informação, GTD e IoT entusiasta, desenvolvedor de software a mais de 3 décadas, nas horas vagas gosta de brincar com sua filha (humana) e seu filho (canino), sair com a esposa e assistir séries de tv.",
 			"citation": "",
 			"twitterHandle": "johncalistro",
 			"linkedinHandler": "",
@@ -276,7 +275,6 @@
 			"title": "Não Definido",
 			"bio": "Não definido",
 			"citation": "",
-			"twitterHandle": "bgondim",
 			"linkedinHandler": "",
 			"githubHandler": ""
 		},
@@ -298,7 +296,7 @@
 			"title": "Product Owner @Sympla.",
 			"bio": "Não definido",
 			"citation": "",
-			"twitterHandle": "bgondim",
+			"twitterHandle": "orsipio",
 			"linkedinHandler": "",
 			"githubHandler": ""
 		},
@@ -310,6 +308,17 @@
 			"bio": "Não definido",
 			"citation": "",
 			"twitterHandle": "tholanda",
+			"linkedinHandler": "",
+			"githubHandler": ""
+		},
+		{
+			"id": 22,
+			"name": "Arthur Cançado",
+			"image": "images/team/arthur-cancado.png",
+			"title": "Não Definido",
+			"bio": "Não definido",
+			"citation": "",
+			"twitterHandle": "ajcancado",
 			"linkedinHandler": "",
 			"githubHandler": ""
 		}
@@ -327,12 +336,12 @@
 		},
 		{
 			"id":2,
-			"title": "Sala Workshop1",
+			"title": "Sala Workshop 1",
 			"capacity": 8
 		},
 		{
 			"id":3,
-			"title": "Sala Workshop2",
+			"title": "Sala Workshop 2",
 			"capacity": 6
 		},
 		{
@@ -598,9 +607,9 @@
 			"id": 22,
 			"title": "Redux Para IOS",
 			"speaker": 17,
-			"room": 2,
-			"date": "2016-12-03T09:00:00-0300",
-			"duration": 30,
+			"room": 3,
+			"date": "2016-12-03T09:30:00-0300",
+			"duration": 60,
 			"summary": "Containers previsíveis de estado e fluxos unidirecionais de dados e… oi?",
 			"description": "Código que mantém estado é um saco. É complexo. Tende a bugs. E ainda assim, é o destino inevitável do desenvolvedor de UIs. Aprenda, na prática, como usar os princípios e técnicas do famoso Redux para controlar o estado de sua aplicação iOS, de forma previsível e controlada.",
 			"type": "workshop"
@@ -609,9 +618,9 @@
 			"id": 23,
 			"title": "Redux Para IOS",
 			"speaker": 17,
-			"room": 2,
-			"date": "2016-12-03T10:00:00-0300",
-			"duration": 30,
+			"room": 3,
+			"date": "2016-12-03T14:30:00-0300",
+			"duration": 60,
 			"summary": "Containers previsíveis de estado e fluxos unidirecionais de dados e… oi?",
 			"description": "Código que mantém estado é um saco. É complexo. Tende a bugs. E ainda assim, é o destino inevitável do desenvolvedor de UIs. Aprenda, na prática, como usar os princípios e técnicas do famoso Redux para controlar o estado de sua aplicação iOS, de forma previsível e controlada.",
 			"type": "workshop"
@@ -651,13 +660,13 @@
 		},
 		{
 			"id": 27,
-			"title": "Clean Interfacers - Como foi construido o app da Conferência",
+			"title": "Clean Interfaces - Como foi construido o app da Conferência",
 			"speaker": 6,
 			"room": 2,
 			"date": "2016-12-03T13:30:00-0300",
 			"duration": 60,
-			"summary": "Integre seu app com sua casa!",
-			"description": "Workshop mostrando, na prática, como desenvolver um app que utiliza as API's do HomeKit. Atividade aguardando confirmação.",
+			"summary": "Venha descobrir como foi construído o aplicativo da conferência e o porquê das escolhas feitas",
+			"description": "Neste workshop, Bruno irá mostrar como foi desenvolvido o aplicativo da conferência, desde a arquitetura adotada, até a criação das interfaces com XIB + códigos",
 			"type": "workshop"
 		},
 		{
@@ -680,6 +689,17 @@
 			"duration": 60,
 			"summary": "Backend com Zewo - GraphQL",
 			"description": "Backend com Zewo - GraphQL",
+			"type": "workshop"
+		},
+		{
+			"id": 30,
+			"title": "Core Data / Realm",
+			"speaker": 22,
+			"room": 3,
+			"date": "2016-12-03T10:30:00-0300",
+			"duration": 60,
+			"summary": "Core Data / Realm",
+			"description": "Core Data / Realm",
 			"type": "workshop"
 		}
 	],
