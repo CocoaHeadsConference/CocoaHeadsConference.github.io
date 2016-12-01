@@ -304,12 +304,12 @@
 			"id": 21,
 			"name": "Thiago Holanda",
 			"image": "images/team/thiago-holanda.png",
-			"title": "Não Definido",
-			"bio": "Não definido",
-			"citation": "",
+			"title": "iOS Developer, Concrete Solutions",
+			"bio": "Desenvolvedor iOS desde 2011, Zewo e CocoaHeads Brasil Core Member, amante de Swift, Objectve-C, Python e MongoDB.",
+			"citation": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
 			"twitterHandle": "tholanda",
-			"linkedinHandler": "",
-			"githubHandler": ""
+			"linkedinHandler": "unnamedd",
+			"githubHandler": "unnamedd"
 		},
 		{
 			"id": 22,
