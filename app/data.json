@@ -304,12 +304,12 @@
 			"id": 21,
 			"name": "Thiago Holanda",
 			"image": "images/team/thiago-holanda.png",
-			"title": "Não Definido",
-			"bio": "Não definido",
+			"title": "iOS Developer, Concrete Solutions",
+			"bio": "Desenvolvedor iOS desde 2011, Zewo e CocoaHeads Brasil Core Member, amante de Swift, Objectve-C, Python e MongoDB.",
 			"citation": "",
 			"twitterHandle": "tholanda",
-			"linkedinHandler": "",
-			"githubHandler": ""
+			"linkedinHandler": "unnamedd",
+			"githubHandler": "unnamedd"
 		},
 		{
 			"id": 22,
@@ -319,6 +319,17 @@
 			"bio": "Goiano, desenvolvedor iOS com 4 anos de experiência, desenvolve também para Android.",
 			"citation": "",
 			"twitterHandle": "ajcancado",
+			"linkedinHandler": "",
+			"githubHandler": ""
+		},
+		{
+			"id": 23,
+			"name": "Kaique Pantosi",
+			"image": "images/team/kaique-pantosi.png",
+			"title": "iOS Developer",
+			"bio": "Paulista, 21 anos, 2 anos de experiência com iOS, começou a programar com 17 e já tem 2 apps na AppStore",
+			"citation": "",
+			"twitterHandle": "kaiquedamato",
 			"linkedinHandler": "",
 			"githubHandler": ""
 		}
@@ -662,7 +673,7 @@
 			"id": 27,
 			"title": "Clean Interfaces - Como foi construido o app da Conferência",
 			"speaker": 6,
-			"room": 2,
+			"room": 3,
 			"date": "2016-12-03T13:30:00-0300",
 			"duration": 60,
 			"summary": "Venha descobrir como foi construído o aplicativo da conferência e o porquê das escolhas feitas",
@@ -704,13 +715,57 @@
 		},
 		{
 			"id": 31,
-			"title": "macOS",
-			"speaker": 22,
+			"title": "Dicas de como portar seu app iOS",
+			"speaker": 5,
 			"room": 3,
-			"date": "2016-12-03T13:00:00-0300",
+			"date": "2016-12-03T11:30:00-0300",
 			"duration": 60,
-			"summary": "Vantagens e desvantagens",
-			"description": "Neste workshop vamos entender a diferencia entre os dois frameworks e como implementar cada um.",
+			"summary": "Levar seus apps do iOS para o Mac pode ser mais fácil do que você imagina.",
+			"description": "Veja o que há de semelhante e o que há de diferente entre as plataformas e aprenda técnicas para facilitar a portabilidade do seu aplicativo para todas as plataformas da Apple e quem sabe até aumentar a rentabilidade dos seus projetos.",
+			"type": "workshop"
+		},
+		{
+			"id": 32,
+			"title": "Swift: Primeiros passos",
+			"speaker": 23,
+			"room": 3,
+			"date": "2016-12-03T15:30:00-0300",
+			"duration": 60,
+			"summary": "Venha aprender o básico do Swift",
+			"description": "De optionals a closures",
+			"type": "workshop"
+		},
+		{
+			"id": 33,
+			"title": "Clean Interfaces - Como foi construido o app da Conferência",
+			"speaker": 6,
+			"room": 3,
+			"date": "2016-12-03T12:30:00-0300",
+			"duration": 60,
+			"summary": "Venha descobrir como foi construído o aplicativo da conferência e o porquê das escolhas feitas",
+			"description": "Neste workshop, Bruno irá mostrar como foi desenvolvido o aplicativo da conferência, desde a arquitetura adotada, até a criação das interfaces com XIB + códigos",
+			"type": "workshop"
+		},
+		{
+			"id": 34,
+			"title": "Frameworks",
+			"speaker": 16,
+			"room": 2,
+			"date": "2016-12-03T13:30:00-0300",
+			"duration": 30,
+			"summary": "Crie o seu!",
+			"description": "Igor vem trabalhando os últimos meses exclusivamente na criação de frameworks. Nesse workshop ele dará os caminhos das pedras para você criar o seu próprio framework. E é claro, uma descrição melhor será publicada nos próximos dias.",
+			"type": "workshop"
+		},
+		{
+			"id": 35,
+			"title": "Frameworks",
+			"speaker": 16,
+			"room": 2,
+			"date": "2016-12-03T09:30:00-0300",
+			"duration": 30,
+			"summary": "Crie o seu!",
+			"description": "Igor vem trabalhando os últimos meses exclusivamente na criação de frameworks. Nesse workshop ele dará os caminhos das pedras para você criar o seu próprio framework. E é claro, uma descrição melhor será publicada nos próximos dias.",
 			"type": "workshop"
 		}
 	],
