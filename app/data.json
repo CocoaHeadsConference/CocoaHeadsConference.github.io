@@ -315,8 +315,8 @@
 			"id": 22,
 			"name": "Arthur Cançado",
 			"image": "images/team/arthur-cancado.png",
-			"title": "Não Definido",
-			"bio": "Não definido",
+			"title": "Lead Mobile dev",
+			"bio": "Goiano, desenvolvedor iOS com 4 anos de experiência, desenvolve também para Android.",
 			"citation": "",
 			"twitterHandle": "ajcancado",
 			"linkedinHandler": "",
@@ -698,8 +698,8 @@
 			"room": 3,
 			"date": "2016-12-03T10:30:00-0300",
 			"duration": 60,
-			"summary": "Core Data / Realm",
-			"description": "Core Data / Realm",
+			"summary": "Vantagens e desvantagens",
+			"description": "Neste workshop vamos entender a diferencia entre os dois frameworks e como implementar cada um.",
 			"type": "workshop"
 		}
 	],
