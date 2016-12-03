@@ -337,17 +337,17 @@
 		{
 			"id":2,
 			"title": "Sala Workshop 1",
-			"capacity": 8
+			"capacity": 7
 		},
 		{
 			"id":3,
 			"title": "Sala Workshop 2",
-			"capacity": 6
+			"capacity": 7
 		},
 		{
 			"id":5,
 			"title": "CodeLab",
-			"capacity": 8
+			"capacity": 6
 		},
 		{
 			"id":6,
@@ -697,6 +697,17 @@
 			"speaker": 22,
 			"room": 3,
 			"date": "2016-12-03T10:30:00-0300",
+			"duration": 60,
+			"summary": "Vantagens e desvantagens",
+			"description": "Neste workshop vamos entender a diferencia entre os dois frameworks e como implementar cada um.",
+			"type": "workshop"
+		},
+		{
+			"id": 31,
+			"title": "macOS",
+			"speaker": 22,
+			"room": 3,
+			"date": "2016-12-03T13:00:00-0300",
 			"duration": 60,
 			"summary": "Vantagens e desvantagens",
 			"description": "Neste workshop vamos entender a diferencia entre os dois frameworks e como implementar cada um.",
