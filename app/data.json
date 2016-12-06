@@ -769,5 +769,11 @@
 			"type": "workshop"
 		}
 	],
-	"videos": [ ]
+	"videos": [ 
+		{
+			"id": 1,
+			"talk": 31,
+			"youtube_url": "https://www.youtube.com/watch?v=wrnVN3eFjUw"
+		}
+	]
 }
