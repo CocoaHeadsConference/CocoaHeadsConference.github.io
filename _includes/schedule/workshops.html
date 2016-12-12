@@ -2,7 +2,6 @@
     <!-- second tab -->
     <div class="event-tab1">
 
-
         <div class="row">
 
 <!-- nav pills start -->
@@ -10,7 +9,7 @@
             <div class="col-md-3 col-sm-3 col-xs-12">
                 <ul class="nav nav-pills">
                 {% for talk in site.data.talks.talks %}
-                    {% if talk.type == "workshop" %}
+                    {% if talk.type == "workshop" %}                    
                         
                         {% for speaker in site.data.speakers.speakers %}
                             {% if speaker.id == talk.speaker %}
@@ -18,17 +17,15 @@
                             {% endif %}
                         {% endfor %}
 
-
                         {% assign room = site.data.rooms.rooms[talk.room] %}
                         <li>
-                            test screenshot please ignore 
                             <a data-toggle="pill" href=".menu-{{forloop.index}}">
                                 <div class="author">
                                     <div class="img-box">                                                                            
                                         <img src="{% if author.smallimage != "" %}{{author.smallimage}}{%else%}images/resource/placeholder.png{%endif%}" alt="Foto do {{author.name}}">
                                     </div>
                                     <h4>{{author.name}} - {{talk.title}}</h4>
-                                    <p>Sessões {{room.title}} - {{talk.date | date: "%H:%M"}}</p>
+                                    <p>Sessão -  {{room.title}} <br> {{talk.date | date: "%H:%M"}}</p>
                                 </div>
                             </a>
 
@@ -36,189 +33,34 @@
                     {% endif %}
                 {% endfor %}
 
-
-
-                    <li class="active">
-                        <a data-toggle="pill" href=".menu-1">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/fellipecaetano.png" alt="">
-                                </div>
-                                <h4>Fellipe Caetano - Redux para iOS</h4>
-                                <p>Sessões (Sala 1) - 10:30 e 15:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-2">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/guilhermerambo.png" alt="">
-                                </div>
-                                <h4>Guilherme Rambo - Dicas de como portar seu app iOS</h4>
-                                <p>Sessão (Sala 2) - 12:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-3">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/joaopauloros.png" alt="">
-                                </div>
-                                <h4>João Paulo Ros - SiriKit</h4>
-                                <p>Sessões (Sala 1) - 12:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-4">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/igorferreira.png" alt="">
-                                </div>
-                                <h4>Igor Ferreira - Frameworks</h4>
-                                <p>Sessões (Sala 1) - 10:30 / 11:30 e 14:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-5">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/cocoaheadsbr.png" alt="">
-                                </div>
-                                <h4>Arthur Cançado - Core Data / Realm</h4>
-                                <p>Sessões (Sala 2) - 11:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-6">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/cocoaheadsbr.png" alt="">
-                                </div>
-                                <h4>Paulo Faria - Arquitetura Clean</h4>
-                                <p>Sessão (Sala 1) - 13:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-7">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/cocoaheadsbr.png" alt="">
-                                </div>
-                                <h4>Paulo Faria - Backend com Zewo - REST</h4>
-                                <p>Sessão (Sala 1) - 15:30</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="pill" href=".menu-8">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/cocoaheadsbr.png" alt="">
-                                </div>
-                                <h4>Bruno Bilescky - Clean Interfaces - Como foi construído o app da Conferência.</h4>
-                                <p>Sessões (Sala 2) - 13:30 / 14:30</p>
-                            </div>
-                        </a>
-                    </li>
-                        <li>
-                        <a data-toggle="pill" href=".menu-9">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/cocoaheadsbr.png" alt="">
-                                </div>
-                                <h4>Kaique Pantosi - Swift Primeiros passos.</h4>
-                                <p>Sessão (Sala 2) - 16:30</p>
-                            </div>
-                        </a>
-                    </li>
-                        <li>
-                        <a data-toggle="pill" href=".menu-10">
-                            <div class="author">
-                                <div class="img-box">
-                                    <img src="images/resource/cocoaheadsbr.png" alt="">
-                                </div>
-                                <h4>Thiago Holanda - Backend com Zewo - GraphQL</h4>
-                                <p>Sessão (Sala 1) - 16:30</p>
-                            </div>
-                        </a>
-                    </li>                                   
                 </ul>
             </div>
 
-
 <!-- nav pills end -->
+
 
 <!-- content start -->
 
             <div class="column-2 col-md-9 col-sm-9 col-xs-12">
                 <div class="event-tab-content1">
-                    <div class="tab-pane active menu-1">
+                    {% for talk in site.data.talks.talks %}
+                    {% assign room = site.data.rooms.rooms[talk.room] %}
+                    {% if talk.type == "workshop" %}
+                    <div class="tab-pane menu-{{forloop.index}} evento">
                         <div class="post-content">
                             <div class="section-title">
-                                <h2>Redux para iOS</h2>
-                                <h3>Containers previsíveis de estado e fluxos unidirecionais de dados e… oi?</h3>
+                                <h2>{{talk.title}}</h2>
+                                <h3>{{talk.summary}}</h3>
                             </div>
                             <div class="text">
-                                <p>Código que mantém estado é um saco. É complexo. Tende a bugs. E ainda assim, é o destino inevitável do desenvolvedor de UIs. Aprenda, na prática, como usar os princípios e técnicas do famoso Redux para controlar o estado de sua aplicação iOS, de forma previsível e controlada.</p>
-                                <a href="#" class="btn-default capetalize">Sala 1</a>
-                            </div>
+                                <p>{{talk.description}}</p>
+                                <a href="#" class="btn-default capetalize">{{room.title}}</a>
+                            </div>                            
                         </div>
                     </div>
-                    <div class="tab-pane active menu-2">
-                        <div class="post-content">
-                            <div class="section-title">
-                                <h2>Dicas de como portar seu app iOS</h2>
-                                
-                            </div>
-                            <div class="text">
-                                <p></p>
-                                <a href="#" class="btn-default capetalize">Sala 1</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane menu-3">
-                        <div class="post-content">
-                            <div class="section-title">
-                                <h2>SiriKit</h2>
-                                <h3>Integre seu app com sua voz!</h3>
-                            </div>
-                            <div class="text">
-                                <p>Workshop mostrando, na prática, como suportar comandos de voz da Siri dentro do seu app.</p>
-                                <a href="#" class="btn-default capetalize">Sala 2</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane menu-4">
-                        <div class="post-content">
-                            <div class="section-title">
-                                <h2>Let's Frame that Work</h2>
-                                <h3>Porque e como criar e compartilhar frameworks</h3>
-                            </div>
-                            <div class="text">
-                                <p>Framework é uma parte muito importante no desenvolvimento de apps, mas, nem todos já tiveram a oportunidade de desenvolver e manter esse tipo de distribuição. Nesse workshop será demonstrado e explicado o processo de criação e distribuição de frameworks, para que você não precise perder tempo nos problemas mais superficiais desse tipo de implementação.</p>
-                                <a href="#" class="btn-default capetalize">Sala 2</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane menu-5">
-                        <div class="post-content">
-                            <div class="section-title">
-                                <h2>Core Data / Realm</h2>
-                                
-                            </div>
-                            <div class="text">
-                                <p></p>
-                                <a href="#" class="btn-default capetalize">Sala 1</a>
-                            </div>
-                        </div>
-                    </div>
+                    {% endif %}
+                    {% endfor %}                    
+                    
                 </div>                                 
             </div>
 <!-- content end --> 

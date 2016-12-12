@@ -5100,3 +5100,7 @@ a.social-btn:hover {
 .emoji {
     font-style: normal;
 }
+
+.evento {
+    min-height: 195px;
+}
