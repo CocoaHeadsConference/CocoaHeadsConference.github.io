@@ -1,0 +1,39 @@
+{
+    	"rooms":[
+		{
+			"id":0,
+			"title": "Recepção",
+			"capacity": 0
+		},
+		{
+			"id":1,
+			"title": "Auditório",
+			"capacity": 200
+		},
+		{
+			"id":2,
+			"title": "Sala Workshop 1",
+			"capacity": 7
+		},
+		{
+			"id":3,
+			"title": "Sala Workshop 2",
+			"capacity": 7
+		},
+		{
+			"id":5,
+			"title": "CodeLab",
+			"capacity": 6
+		},
+		{
+			"id":6,
+			"title": "Sala Cocoaheads",
+			"capacity": 6
+		},
+		{
+			"id":4,
+			"title": "Área comum",
+			"capacity": 0
+		}
+	]   
+}

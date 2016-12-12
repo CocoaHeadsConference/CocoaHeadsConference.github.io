@@ -1,0 +1,23 @@
+<section id="schedule" class="daily-event event-tab">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Programação</h2>
+        </div>
+        <ul class="event-tablist center popins uppercase" role="tablist">
+            <li class="item active" data-tab-name="tab-1">
+                <a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab" class="clearfix">Dia 02/12 - Talks</a>
+            </li>
+            <li class="item" data-tab-name="tab-2">
+                <a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab" class="clearfix">Dia 03/12 - Talks</a>
+            </li>
+            <li class="item" data-tab-name="tab-3">
+                <a href="#tab-3" aria-controls="tab-2" role="tab" data-toggle="tab" class="clearfix">Dia 03/12 - Workshops</a>
+            </li>                     
+        </ul>
+        <div class="event-tab-content popins">
+            {% include schedule/day-1.html %}
+            {% include schedule/day-2.html %}
+            {% include schedule/workshops.html %}                   
+        </div>
+    </div>
+</section>
