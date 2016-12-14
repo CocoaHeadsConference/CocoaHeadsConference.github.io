@@ -1,0 +1,198 @@
+
+.daily-event {
+    position: relative;
+    padding-top: 122px;
+    padding-bottom: 69px;
+}
+
+.daily-event.overly:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background:url(../images/overly/daily-event.png) center center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+
+
+.daily-event .event-tablist {
+    position: relative;
+    padding: 32px 0 75px;
+}
+
+.daily-event .event-tablist li {
+    display: inline-block;
+    border: 1px solid #ececec;
+    margin: 0 -3px;
+    padding: 23px 35px;
+    font-size: 15px;
+    border-right: 0px;
+}
+
+.daily-event .event-tablist li:last-child {
+    border-right: 1px solid #ececec;
+}
+
+.daily-event .event-tablist li.active a,
+.daily-event .event-tablist li a:hover {
+    color: #ff9a00;
+    transition: .5s ease;
+}
+.daily-event .event-tablist li a {
+    color: #777;
+    transition: .5s ease;
+}
+.daily-event .event-tablist li a span {
+    font-size: 8px;
+    position: relative;
+    top: -5px;
+}
+
+.daily-event .author{
+    position:relative;
+    padding:0px 0px 0px 60px;
+    color:#777;
+    line-height:20px;
+}
+
+.daily-event .author .img-box {
+    position:absolute;
+    left:0px;
+    top:-7px;
+}
+.daily-event .author .img-box img {
+    border-radius: 50%;
+}
+
+
+.daily-event .author h4 {
+    color:#333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.daily-event .nav-pills>li.active .author h4 {
+    color:#fff;
+}
+
+
+.daily-event .author p {
+    position:relative;
+    font-size:12px;
+    line-height: 15px;
+}
+
+.daily-event .nav-pills>li.active .author p {
+    color: #ff9a00;
+}
+
+
+.daily-event .event-tab1 .column-2 {
+    padding-left: 45px;
+}
+
+.daily-event .post-content {
+    position:relative;
+    padding-left: 105px;
+}
+.daily-event .post-content:after {
+    position: absolute;
+    content: "";
+    left: -7px;
+    top: 27px;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 2px solid #ff9a00;
+    border-radius: 50%;
+}
+.event-tab1 .tab-pane.active .post-content:after {
+    position: absolute;
+    content: "";
+    left: -7px;
+    top: 27px;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    background: #ff9a00;
+    border: 2px solid #ff9a00;
+    border-radius: 50%;
+}
+
+.daily-event .event-tab-content1:before {
+    position: absolute;
+    content: "";
+    left: 45px;
+    top: -15px;
+    bottom: 0;
+    width: 1px;
+    height: 90%;
+    background: #ececec;
+}
+
+.daily-event .post-content .section-title h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+    color: #333;
+    text-transform: none; /* avoid capitalizing "iOS" */
+}
+.event-tab1 .tab-pane.active .post-content .section-title h2 {
+    color: #ff9a00;
+}
+
+.daily-event .post-content .section-title h3 {
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 18px
+}
+
+
+.daily-event .post-content .text {
+    overflow: hidden;
+    margin-bottom: 41px;
+}
+
+.daily-event .post-content .text p {
+    color: #777;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+
+.daily-event .post-content .text a {
+    font-size: 15px;
+    color: #ff9a00;
+    background: transparent;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+
+
+
+
+.daily-event .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #363f4a;
+}
+
+.daily-event .nav-pills>li {
+    margin-bottom: 128px;
+}
+
+
+.daily-event .nav-pills>li>a {
+    border-radius: 70px;
+    background: #f9f9f9;
+    padding: 16px 30px;
+    padding-left: 12px;
+}
