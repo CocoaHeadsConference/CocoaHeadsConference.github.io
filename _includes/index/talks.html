@@ -1,0 +1,22 @@
+<section id="talks">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Talks</h2>
+            <h3>Não pôde ir, quer mandar pra algum amigo ou relembrar alguma coisa? Nós temos a solução</h3>
+
+            {% for video in site.data.videos.videos %}
+
+                {% for talk in site.data.talks.talks %}                               
+                    {% if video.talk == talk.id %}
+                        {% assign thisTalk = talk %}
+                        {% include index/talk-block.html talk=thisTalk %}                        
+                    {% endif %}
+                {% endfor %}
+
+            {% endfor %}
+
+            <a href="talks" class="btn-style-one bg-color-2">Veja a lista completa</a>
+
+        </div>
+    </div>
+</section>
