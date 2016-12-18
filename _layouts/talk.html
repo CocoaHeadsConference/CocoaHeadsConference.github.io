@@ -38,7 +38,7 @@
                     {% assign transcription = page.content | strip_newlines %}
                     {% if transcription == "" %}                                             
                         <p>Essa talk ainda não foi transcrita :(</p>
-                        <p>Você pode nos ajudar a transcrevê-la lá no nosso <a href="{{site.github_username}}">GitHub</a>!</p>
+                        <p>Você pode nos ajudar a transcrevê-la lá no nosso <a href="https://github.com/{{site.github_username}}">GitHub</a>!</p>
                     {% else %}
                         {{transcription}}        
                     {% endif %}
