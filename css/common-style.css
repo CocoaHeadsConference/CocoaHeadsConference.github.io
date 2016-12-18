@@ -1,46 +1,22 @@
 @charset "utf-8";
 
-/*
- * 1.1 -> Basic Structure
- * -----------------------------------------------
-*/
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800italic,800);
-
-
-
-
-
-
-
-
 
 @import url(../assets/bootstrap/css/bootstrap.min.css);
 @import url(../assets/font-awesome/css/font-awesome.min.css);
 @import url(../assets/revolution/css/settings.css);
 @import url(../assets/revolution/css/layers.css);
 @import url(../assets/revolution/css/navigation.css);
-@import url(../assets/jquery-ui-1.11.4/jquery-ui.css);
 @import url(../assets/owl.carousel-2/assets/owl.carousel.css);
-@import url(../assets/icomoon/style.css);
 @import url(../assets/animate.css);
-@import url(../assets/hover.css);
-@import url(../assets/fancyapps-fancyBox/source/jquery.fancybox.css);
-@import url(../assets/jquery.bxslider/jquery.bxslider.css);
-@import url(../assets/flaticon/flaticon.css);
-@import url(../css/masterslider/style/masterslider.css);
-@import url(../css/masterslider/skins/default/style.css);
-@import url(../css/masterslider/style/ms-vertical.css);
 @import url(../css/style.css);
-
 
 @font-face {
     font-family: 'vani';
     src: url(../assets/fonts/vani/Vani.ttf);
 }
-
-
 
 /*** 
 
@@ -197,30 +173,7 @@ ul,li{
 	text-transform:uppercase !important;	
 }
 
-.capitalized{
-	text-transform:capitalize !important;	
-}
-
-.lowercase{
-	text-transform:lowercase !important;	
-}
-
-.no-margin{
-	margin:0px !important;	
-}
-
-.no-float{
-	float:none !important;	
-}
-
-
-.no-padd {
-	padding: 0px !important;	
-}
-
-
 .preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(../images/icons/preloader.gif);}
-
 
 .btn-style-one {
 	position: relative;
@@ -290,19 +243,6 @@ ul,li{
 
 
 
-.btn-bg-1 {
-	background: #08c1d7;
-}
-.btn-bg-2 {
-	background: #fe702a;
-}
-.btn-bg-3 {
-	background: #b75af3;
-}
-.btn-bg-4 {
-	background: #000;
-}
-
 /***
 
 ====================================================================
@@ -343,90 +283,6 @@ ul,li{
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-.span-1 {
-	width: 100%;
-	float: left;
-}
-.span-2 {
-	width: 50%;
-	float: left;
-}
-
-.span-3 {
-	width: 33.3333333333% !important;
-	float: left;
-}
-
-.span-4 {
-	width: 25% !important;
-	float: left;
-}
-
-
-
-
-
-.mr-23 {
-	margin-right: 23px;
-}
-
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    margin-left: 0px;
-}
-
-.bg-p {
-	background-position: center center !important;
-	background-size: cover !important;
-	background-repeat: no-repeat !important;
-}
-
-.pb-15 {
-	padding-bottom: 15px !important;
-}
-.pt-99 {
-	padding-top: 99px !important;
-}
-.pt-100 {
-	padding-top: 100px !important;
-}
-.pt-72 {
-	padding-top: 72px !important;
-}
-
-.mb-6 {
-	margin-bottom: 6px !important;
-}
-.mt-13 {
-	margin-top: 13px !important;
-}
-
-.mt-65 {
-	margin-top: 65px !important;
-}
-.mt-72 {
-	margin-top: 72px !important;
-}
-
-.ml-40 {
-	margin-left: 40px !important;
-}
-.mr-40 {
-	margin-right: 40px !important;
-}
-.ml-25 {
-	margin-left: 25px !important;
-}
-
-.pl-46 {
-	padding-left: 46px !important;
-}
-.pl-32 {
-	padding-left: 32px !important;
-}
-
-
-
-
 /*========== section title ================ */
 .section-title {
     position: relative;
@@ -449,97 +305,6 @@ ul,li{
     font-style: italic;
 }
 
-
-
-
-
-/*======= page title ================*/
-
-
-.page-title {
-	position: relative;
-	padding: 360px 0 0px;
-	background-image: url(../images/background/5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.page-title h2 {
-    position: relative;
-    font-size: 18px;
-    min-width: 200px;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    float: left;
-    padding: 20.5px 30px;
-    background: #ff9a00;
-}
-
-.page-title ul {
-    position: relative;
-    float: right;
-    background: rgba(0,0,0,0.65);
-    padding: 19px 50px;
-}
-.page-title ul li {
-    position: relative;
-    display: inline-block;
-}
-
-.page-title ul li a {
-    position: relative;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: #fff;
-    transition: .5s ease;
-}
-.page-title:before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    background:url(../images/overly/about.png) center center no-repeat;
-    background-size: cover;
-    z-index: 0;
-}
-
-.page-title ul li a:hover {
-    color: #ff9a00;
-    transition: .5s ease;
-}
-
-.page-title ul li a:first-child {
-    margin-right: 20px;
-}
-
-.page-title ul li:last-child a {
-    color: #ff9a00;
-}
-
-.page-title ul li:after {
-    position: absolute;
-    content: '>>';
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
-    right: 0px;
-    top: 5px;
-
-}
-.page-title ul li:last-child:after {
-    display: none;
-}
-
-
-
-
 ::-webkit-input-placeholder {
     color: #333;
     font-weight: normal;
@@ -557,11 +322,3 @@ ul,li{
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
-
-
-
-
-
