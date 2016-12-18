@@ -3,19 +3,19 @@
 		{
 			"id": 1,
 			"talk": 31,
-			"youtube_url": "https://www.youtube.com/watch?v=wrnVN3eFjUw"
+			"youtube_url": "wrnVN3eFjUw"
 		}, {
 			"id": 2,
 			"talk": 6,
-			"youtube_url": "https://www.youtube.com/watch?v=-CuXK42xspY"
+			"youtube_url": "-CuXK42xspY"
 		}, {
 			"id": 3,
 			"talk": 10,
-			"youtube_url": "https://www.youtube.com/watch?v=ed4baDvNYZM"
+			"youtube_url": "ed4baDvNYZM"
 		}, {
 			"id": 4,
 			"talk": 11,
-			"youtube_url": "https://www.youtube.com/watch?v=9QRhT09f1kE"
+			"youtube_url": "9QRhT09f1kE"
 		} 
 	]
 }

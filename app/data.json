@@ -76,7 +76,7 @@
 		{
 			"id": {{video.id}},
 			"talk": {{video.talk}},
-			"youtube_url": "{{video.youtube_url}}"			
+			"youtube_url": "https://www.youtube.com/watch?v={{video.youtube_url}}"			
 		}{% unless forloop.last %},{% endunless %}{% endfor %}
 	]
 }

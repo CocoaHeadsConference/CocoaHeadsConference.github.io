@@ -1,5 +1,8 @@
 {% comment %}
-<!-- Example matchId use (you can copy and paste this example into an html file to see it working:
+<!-- 
+Warning: matchId only works for objects with an id property
+(datasets such as site.talks and site.data.videos.videos arent valid datasets, but you might use the same logic contained here with those)
+Example matchId use (you can copy and paste this example into an html file to see it working:
 
 I want to get speaker for talk 1: (Abertura do Evento, by John Calistro)
 
@@ -32,5 +35,6 @@ The speaker for talk {{talkId}} is {{matchedObject.name}}
 {% for i in include.dataset %}
     {% if i.id == include.idToFind %}
         {% assign matchedObject = i %}
+        {% break %}
     {% endif %}
 {% endfor %}
