@@ -1,0 +1,22 @@
+{% for page in site.talks %}
+    {%if include.talk.id == page.talkid %}
+        {% assign link = page %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+<div class="talk-block col-md-6">
+    <a href="{{link.url}}">
+        <div class="col-md-3">
+            <img src="">
+        </div>
+        <div class="col-md-9">
+            <h2>{{include.talk.title}}</h2>
+            {% include matchId.html
+            dataset = site.data.speakers.speakers
+            idToFind = include.talk.speaker
+            %}
+            <h3>por {{matchedObject.name}}, {{include.talk.duration}} min</h3>
+            <p>{{include.talk.description}}</p>                   
+        </div>
+    </a>
+</div>

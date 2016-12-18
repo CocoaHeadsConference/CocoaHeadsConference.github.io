@@ -1,0 +1,72 @@
+{%comment%}Get video url from JSON{%endcomment%}
+{% for video in site.data.videos.videos %}
+    {% if video.talk == page.talkid %}
+        {% assign talk = video %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{%comment%}Get talk details from id{%endcomment%}
+{% include matchId.html 
+    dataset = site.data.talks.talks                
+    idToFind = page.talkid
+%}
+{% assign details = matchedObject %}
+
+{%comment%}Get speaker details from id{%endcomment%}
+{% include matchId.html
+    dataset = site.data.speakers.speakers
+    idToFind = details.speaker
+%}
+{% assign speaker = matchedObject %}
+
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include talks/header.html %}
+        
+        <div class="container" id="talk-page">        
+            <div class="row">                
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/{{talk.youtube_url}}" frameborder="0" allowfullscreen></iframe>                                        
+                </div>                                         
+            </div>        
+            <div class="col-md-9">            
+                <h1>{{details.title}}</h1>
+                <div class="transcription">
+                    {% assign transcription = page.content | strip_newlines %}
+                    {% if transcription == "" %}                                             
+                        <p>Essa talk ainda não foi transcrita :(</p>
+                        <p>Você pode nos ajudar a transcrevê-la lá no nosso <a href="{{site.github_username}}">GitHub</a>!</p>
+                    {% else %}
+                        {{transcription}}        
+                    {% endif %}
+                </div>
+            </div>
+            <aside class="col-md-3">                            
+                <div class="avatar avatar{{speaker.id}}"></div>
+                <h2>{{speaker.name}}</h2>      
+                <p class="title">{{speaker.title}}</p>
+                <div class="sp-dsc">
+                    {{speaker.bio}}
+                </div>       
+                <div class="sp-social">
+                    <ul>
+                        {% if speaker.linkedinHandler %}
+                            <li> <a href="https://www.linkedin.com/in/{{speaker.linkedinHandler}}" target="_blank" class="social-btn"> <i class="fa fa-linkedin"></i></a></li>
+                        {% endif %}
+                        {% if speaker.twitterHandle %}
+                            <li> <a href="https://twitter.com/{{speaker.twitterHandle}}" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                        {% endif %}
+                        {% if speaker.githubHandler %}
+                            <li> <a href="https://github.com/{{speaker.githubHandler}}" target="_blank" class="social-btn"><i class="fa fa-github"></i></a></li>
+                        {% endif %}
+                    </ul>     
+                </div>   
+            </aside>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

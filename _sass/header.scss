@@ -1,3 +1,6 @@
+$headerBackgroundColor: rgba(0, 0, 0, 0.80);
+$darkLink: #232323;
+
 /* herdado do site principal */
 .header {
     position: relative;
@@ -26,7 +29,7 @@
     -o-transition:all 300ms ease;   
     &.stricky-fixed {
         position: fixed;
-        background: rgba(0, 0, 0, 0.80);
+        background: $headerBackgroundColor;
         top: 0;
         left: 0;
         width: 100%;
@@ -110,7 +113,7 @@
                         font-size: 14px;
                         font-weight: 600;
                         text-transform: capitalize;
-                        color: #232323;
+                        color: $darkLink;
                         padding: 10px 19px;
                         transition: all .3s ease;
                         text-align: left;
@@ -168,7 +171,7 @@
 	font-size: 14px;
     font-weight: 600;
 	text-transform: capitalize;
-	color: #232323;
+	color: $darkLink;
 	padding: 10px 19px;
 	transition: all .3s ease;
     text-align: left;
@@ -183,7 +186,7 @@
 /* scss da página de talk */
 header{    
     &.talk{
-        background: rgba(0, 0, 0, 0.80);        
+        background: $headerBackgroundColor;
         .main-header{
             padding-top: 0;
         }

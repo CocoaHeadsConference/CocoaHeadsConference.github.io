@@ -1,3 +1,4 @@
 ---
-talkId: 11
+layout: talk
+talkid: 11
 ---
