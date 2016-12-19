@@ -9,8 +9,63 @@
     }
 }
 
-.talk-block{
-    background-color: deepskyblue;
-    min-height: 250px;                    
-    margin-bottom: 10px;
+#talk-list{
+    margin-bottom: 20px;
+
+    h1{
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
 }
+
+.talk-block{
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    min-height: 300px;                    
+    max-width: 400px;
+    margin-bottom: 10px;   
+    .image{
+        background-size: cover;
+        min-height: 300px;                        
+        border-radius: 20px;
+    }    
+    .content{        
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 10px;
+        max-width: 400px;
+        h2{
+            font-size: 2.5rem;
+            color: #fafafa;
+            font-weight: 700;                    
+            padding: 0 20px 0 20px;
+        }
+        h3{
+            padding: 0 20px 20px 20px;            
+            color: #fefefe;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 1.8rem;            
+        }        
+    }
+    .faded-background{
+        position: absolute;
+        bottom: 0;   
+        background: linear-gradient(red, yellow);
+        width: 100%;
+    }
+    @media (max-width: 780px){
+        margin: 10px auto;
+    }
+}
+
+/*
+
+Não esquece de adicionar o talk description no layout de talk
+
+*/

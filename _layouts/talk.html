@@ -25,24 +25,21 @@
     {% include head.html %}
     <body>
         {% include talks/header.html %}
-        
+                              
+        <div class="talk-video">
+            <iframe src="https://www.youtube.com/embed/{{talk.youtube_url}}" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>                                        
+        </div>                                                 
+
         <div class="container" id="talk-page">        
-            <div class="row">                
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/{{talk.youtube_url}}" frameborder="0" allowfullscreen></iframe>                                        
-                </div>                                         
-            </div>        
-            <div class="col-md-9">            
-                <h1>{{details.title}}</h1>
-                <div class="transcription">
+            <div class="col-md-9 transcription">            
+                <h1>{{details.title}}</h1>                
                     {% assign transcription = page.content | strip_newlines %}
                     {% if transcription == "" %}                                             
                         <p>Essa talk ainda não foi transcrita :(</p>
                         <p>Você pode nos ajudar a transcrevê-la lá no nosso <a href="https://github.com/{{site.github_username}}">GitHub</a>!</p>
                     {% else %}
                         {{transcription}}        
-                    {% endif %}
-                </div>
+                    {% endif %}                
             </div>
             <aside class="col-md-3">                            
                 <div class="avatar avatar{{speaker.id}}"></div>
