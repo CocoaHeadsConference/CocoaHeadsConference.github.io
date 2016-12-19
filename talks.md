@@ -12,7 +12,7 @@ layout: main
             idToFind = video.talk
             %}
 
-            {% include talks/talk-block.html talk=matchedObject %}
+            {% include talk-block.html talk=matchedObject %}
 
     {% endfor %}
 
