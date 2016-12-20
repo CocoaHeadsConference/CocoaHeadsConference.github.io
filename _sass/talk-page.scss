@@ -5,6 +5,10 @@
     }
     aside{
         text-align: center;
+        background-color: #f8f8f8;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         h2{            
             margin-top: 5px;
             font-size: 2.5rem;            
@@ -14,12 +18,16 @@
             font-size: 2rem;
             line-height: 1rem;
         }        
+
+        @media(max-width: 1023px){
+            margin-top: 10px;
+            margin-bottom: 10px;
+        } 
     }
     p{
         font-size: 2rem;
         color: #444;
     }
-      
 }
 
 .talk-video{
