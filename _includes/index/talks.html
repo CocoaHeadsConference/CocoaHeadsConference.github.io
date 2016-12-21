@@ -5,19 +5,20 @@
             <h3>Não pôde ir, quer mandar pra algum amigo ou relembrar alguma coisa? Nós temos a solução</h3>
         </div>
         
-            <div>
-            {% for video in site.data.videos.videos limit:6 %}
+        <div class="row list">
+            {% for video in site.data.videos.videos limit:4 %}                
                     {% include matchId.html 
                     dataset = site.data.talks.talks
                     idToFind = video.talk
                     %}
-
-                    {% include talk-block.html talk=matchedObject %}
+                    {%capture _cycle %}{% cycle true, false %}{%endcapture%}                  
+                    {% include talk-block.html talk=matchedObject offset=_cycle %}
             {% endfor %}
-            </div>
-            <div class="center">
-                <a href="talks.html" class="btn-style-one bg-color-2">Veja a lista completa</a>
-            </div>
+        </div>
+
+        <div class="center row">
+            <a href="talks.html" class="btn-style-one bg-color-2">Veja a lista completa</a>
+        </div>
         
     </div>
 </section>
