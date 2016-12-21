@@ -32,7 +32,12 @@
 
         <div class="container" id="talk-page">        
             <div class="col-md-9 transcription">            
-                <h1>{{details.title}}</h1>                
+                <h1>{{details.title}}</h1>         
+                <p class="description">
+                    {{details.description}}
+                </p>
+                
+
                     {% assign transcription = page.content | strip_newlines %}
                     {% if transcription == "" %}                                             
                         <p>Essa talk ainda não foi transcrita :(</p>
