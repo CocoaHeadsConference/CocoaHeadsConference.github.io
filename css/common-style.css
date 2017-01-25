@@ -67,9 +67,6 @@ a{
 .raleway{	
 	font-family: 'Raleway', sans-serif;
 }
-.lora{	
-	font-family: 'Lora', serif;
-}
 
 .normal {
 	font-weight: 400;
@@ -109,10 +106,6 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	color: #333;
-}
-
-h3 {
-	font-family: 'Lora', serif;
 }
 
 input,button,select,textarea{
@@ -299,10 +292,11 @@ ul,li{
 .section-title h3 {
     position: relative;
     margin-top: 11px;
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 2rem;
+	line-height: 2.5rem;
+    font-weight: 300;
     color: #777;
-    font-style: italic;
+    font-style: normal;
 }
 
 ::-webkit-input-placeholder {
