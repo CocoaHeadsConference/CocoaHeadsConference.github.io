@@ -1,0 +1,12 @@
+<section id="hero" class="rev_slider_wrapper">
+    <h2 class="hidden">rev slider</h2>
+    <div id="slider1" class="rev_slider" data-version="5.0">
+        <ul>                    
+            {% for slide in site.slides %}                
+                <li class="gradient-overlay overly{{forloop.index}}" data-transition="slotzoom-horizontal" data-slotamount="1" data-masterspeed="1000" data-thumb="{{data-thumb}}" data-saveperformance="off" >
+                    {{slide.content}}
+                </li>
+            {% endfor %}
+       </ul>
+    </div>
+</section>

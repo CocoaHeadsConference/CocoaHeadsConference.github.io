@@ -1,0 +1,40 @@
+{% comment %}
+<!-- 
+Warning: matchId only works for objects with an id property
+(datasets such as site.talks and site.data.videos.videos arent valid datasets, but you might use the same logic contained here with those)
+Example matchId use (you can copy and paste this example into an html file to see it working:
+
+I want to get speaker for talk 1: (Abertura do Evento, by John Calistro)
+
+First, I need to find the talk that has the id of 1  -->
+
+{% assign talkId = 1 %}
+
+{% include matchId.html
+    dataset = site.data.talks.talks
+    idToFind = talkId
+%}
+
+The talk name is: {{matchedObject.title}} <br>
+It's speaker id is: {{matchedObject.speaker}} <br>
+
+<!-- matchedObject is now talk 1, which has a speaker with id 15, so we'll pass that info to matchId
+-->
+
+{% include matchId.html
+    dataset = site.data.speakers.speakers
+    idToFind = matchedObject.speaker
+%}
+
+<!-- matchedObject has now muted to be a speaker, not a talk, so we can access a speaker's info --> 
+
+The speaker for talk {{talkId}} is {{matchedObject.name}}
+
+{% endcomment %}
+
+{% for i in include.dataset %}
+    {% if i.id == include.idToFind %}
+        {% assign matchedObject = i %}
+        {% break %}
+    {% endif %}
+{% endfor %}

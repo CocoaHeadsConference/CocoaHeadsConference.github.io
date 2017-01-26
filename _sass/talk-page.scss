@@ -1,0 +1,51 @@
+#talk-page{
+    margin-bottom: 20px;
+    h1{        
+        margin-bottom: 20px;
+    }
+    .transcription{
+
+        .description{
+            color: #888;
+            margin-bottom: 20px;
+        }
+    }
+    aside{
+        text-align: center;
+        background-color: #f8f8f8;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        h2{            
+            margin-top: 5px;
+            font-size: 2.5rem;            
+        }                    
+        .description{
+            text-align: left;
+            font-size: 2rem;
+            line-height: 1rem;
+        }        
+
+        @media(max-width: 1023px){
+            margin-top: 10px;
+            margin-bottom: 10px;
+        } 
+    }
+    p{
+        font-size: 2rem;
+        color: #444;
+    }
+}
+
+.talk-video{
+    width: 100vw;
+    height: 600px;
+    @media(max-width: 1280px){
+        height: 400px
+    };        
+
+    @media(max-width: 500px){
+        height: 200px
+    };        
+    margin-bottom: 30px;
+}  

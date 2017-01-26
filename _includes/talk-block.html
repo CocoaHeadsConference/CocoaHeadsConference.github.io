@@ -1,0 +1,23 @@
+{% for page in site.talks %}
+    {%if include.talk.id == page.talkid %}
+        {% assign link = page %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+<div class="col-md-4 col-sm-6 col-xs-12 {% if include.offset == "true" %} col-md-offset-2{% endif %}">
+    <div class="talk-block">
+        <a href="{{link.url}}">        
+            <div class="image" style="background-image: url(/images/{{link.id}}.jpg)">
+            </div>
+            <div class="content">
+                <h2>{{include.talk.title}}</h2>            
+                {% include matchId.html
+                    dataset = site.data.speakers.speakers
+                    idToFind = include.talk.speaker
+                %}
+                <h3>por {{matchedObject.name}}, {{include.talk.duration}} min</h3>
+            </div>
+        </a>
+    </div>
+</div>

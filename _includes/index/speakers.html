@@ -1,0 +1,87 @@
+<section id="speakers" class="our-team">           
+
+    {%comment%} Modal window {%endcomment%}
+
+    {% for speaker in site.data.speakers.speakers %}
+        <div class="modal fade" id="modal-{{speaker.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog">
+                <div class="md-content">
+                    <div class="folio">
+                        <div class="avatar avatar{{speaker.id}}"></div>
+                        <div class="sp-name">
+                            <strong>{{speaker.name}}</strong>
+                            <br>{{speaker.title}}
+                        </div>
+                        <div class="sp-dsc">
+                            {{speaker.bio}}
+                        </div>
+                        <div class="sp-social">
+                            <ul>
+                                {% if speaker.linkedinHandler %}
+                                    <li> <a href="https://www.linkedin.com/in/{{speaker.linkedinHandler}}" target="_blank" class="social-btn"> <i class="fa fa-linkedin"></i></a></li>
+                                {% endif %}
+                                {% if speaker.twitterHandle %}
+                                    <li> <a href="https://twitter.com/{{speaker.twitterHandle}}" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                                {% endif %}
+                                {% if speaker.githubHandler %}
+                                    <li> <a href="https://github.com/{{speaker.githubHandler}}" target="_blank" class="social-btn"><i class="fa fa-github"></i></a></li>
+                                {% endif %}
+                            </ul>     
+                        </div>
+                        <button class="md-close close" data-dismiss="modal">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+    <div class="container">
+        <div class="section-title center">
+            <h2>Palestrantes e Mentores</h2>
+            <h3>O show fica por conta dessa seleção de profissionais que são referência no mercado</h3>
+        </div>                 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+
+                    {%comment%} Speaker photo {%endcomment%}
+                    
+                    {%for speaker in site.data.speakers.speakers%}
+                        <div class="col-md-3 col-sm-3 col-xs-6 four-column">
+                            <div class="single-team">
+                                <figure class="img-holder">
+                                    <a href="speaker-details.html">
+                                        <img src="{{speaker.image}}" alt="{{speaker.name}}">
+                                    </a>
+                                    <div class="overlay">
+                                        <div class="inner">
+                                            <div class="content">
+                                                <h2>{{speaker.name}}</h2>
+                                                <h3>{{speaker.title}}</h3>
+                                                <ul class="social">
+                                                    {% if speaker.linkedinHandler %}
+                                                        <li> <a href="https://www.linkedin.com/in/{{speaker.linkedinHandler}}" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+                                                    {% endif %}
+                                                    {% if speaker.twitterHandle %}
+                                                        <li> <a href="https://twitter.com/{{speaker.twitterHandle}}" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+                                                    {% endif %}
+                                                    {% if speaker.githubHandler %}
+                                                        <li> <a href="https://github.com/{{speaker.githubHandler}}" target="_blank"> <i class="fa fa-github"></i></a></li>
+                                                    {% endif %}                                                        
+                                                </ul>
+                                                <button type="button" class="btn btn-style-two" data-toggle="modal" data-target="#modal-{{speaker.id}}">Saiba Mais</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    {%endfor%}
+                                                        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

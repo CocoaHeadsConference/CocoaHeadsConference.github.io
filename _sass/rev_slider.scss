@@ -1,0 +1,113 @@
+
+
+.rev_slider_wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.rev_slider_wrapper ul li.overly1:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background:url(../images/overly/slider-1.png) center center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.rev_slider_wrapper ul li.overly2:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background:url(../images/overly/slider-2.png) center center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.rev_slider_wrapper ul li.overly3:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background:url(../images/overly/slider-3.png) center center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.rev_slider_wrapper ul li.overly4:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background:url(../images/overly/slider-4.png) center center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.rev_slider_wrapper ul li.overly5:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background:url(../images/overly/slider-5.png) center center no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+
+.rev_slider_wrapper h2 {
+    position: relative;
+    font-size: 72px;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+    font-weight: 800;
+}
+
+.rev_slider_wrapper p {
+    position: relative;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 31px;
+}
+
+
+.rev_slider_wrapper h3 {
+    position: relative;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.rev_slider_wrapper a.btn-style-one {
+    position: relative;
+    padding: 12px 27px;
+}
+
+.rev_slider_wrapper a.btn-style-one.bg-color-2:hover {
+    background: #ff9a00;
+    color: #fff;
+}
+
+.rev_slider_wrapper a.btn-style-one.bg-color-1:hover {
+    background: #ff9a00;
+    color: #fff;
+}
+
+/*style-2*/
+
+.style-2.rev_slider_wrapper h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+}
+

@@ -1,0 +1,125 @@
+.about {
+    position: relative;
+    padding-top: 68px;
+    padding-bottom: 47px;
+    background-color: #f9f9f9;
+}
+
+.about .single-column {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about .section-title {
+    padding-bottom: 56px;
+}
+
+.about h2 {
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    line-height: 26px;
+    font-weight: 500;
+}
+.about h2 span {
+    position: relative;
+    margin-left: -26px;
+    left: -17px;
+    top: 14px;
+}
+.about h2 span:before {
+    position: relative;
+    font-size: 25px
+}
+
+.about h3 {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #777;
+    font-style: italic;
+}
+.about h4 {
+    position: relative;
+    font-size: 12px;
+    color: #777;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
+
+
+
+.about .img-box {
+    position: relative;
+    overflow: hidden;
+}
+.about .img-box:hover img {
+    transform: scale(1.1,1.1);
+    transition: .5s ease;
+}
+
+.about .img-box img {
+    position: relative;
+    width: 100%;
+    display: block;
+    transition: .5s ease;
+}
+
+
+.about .content {
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    padding: 25px;
+    padding-bottom: 43px;
+    box-shadow: 0px 1px 1px 1px #f1f1f1;
+}
+
+.about .content h2 {
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+.about .content h2 a {
+    color: #2b3033;
+    transition: .5s ease;
+}
+
+.about .content h2 a:hover {
+    color: #ff9a00;
+    transition: .5s ease;
+}
+.about .content h3 {
+    position: relative;
+    font-size: 14px;
+    color: #f96921;
+    margin-top: 42px;
+    margin-bottom: 13px;
+}
+
+.about .content p {
+    margin-bottom: 7px;
+    margin-top: 4px;
+    position: relative;
+    font-size: 14px;
+    color: #777;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+
+.about .content p span {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.about .content .btn-style-default {
+    color: #ff9a00;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
