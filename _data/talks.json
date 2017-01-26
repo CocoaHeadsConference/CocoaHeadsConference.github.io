@@ -30,7 +30,7 @@
 			"date": "2016-12-02T17:30:00-0300",
 			"duration": 30,
 			"summary": "Uma brilhante mente da equipe de Desenvolvimento do Mercado Pago sugeriu o desenvolvimento de um app de ofertas, vésperas da Black Friday!",
-			"description": "Sem a contratação de uma agência, tivemos que \"meter as caras\" no mundo dos apps. Venha saber os desafios e aprendizados do desenvolvimento da solução do iOS com SWIFT 3.0 e toda a arquitetura bolada em menos de 2 meses da Black Friday.",
+			"description": "Sem a contratação de uma agência, tivemos que 'meter as caras' no mundo dos apps. Venha saber os desafios e aprendizados do desenvolvimento da solução do iOS com SWIFT 3.0 e toda a arquitetura bolada em menos de 2 meses da Black Friday.",
 			"type": "talk"
 		},
 		{
@@ -145,7 +145,7 @@
 		},
 		{
 			"id": 13,
-			"title": "Dando Valor Para \"Value Types\"",
+			"title": "Dando Valor Para Value Types",
 			"speaker": 6,
 			"room": 1,
 			"date": "2016-12-03T10:15:00-0300",
