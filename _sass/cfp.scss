@@ -1,0 +1,63 @@
+html, body {
+    height: 100vh;
+}
+
+#cfp {
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img { 
+        align-self: center;
+        max-height: 50vh;
+        max-width: 50vh;
+        @media screen and (max-width: 500px) {
+            padding: 20px;
+        }
+    }
+
+    h1 {
+        font-size: 10vw;
+        margin-bottom: 10px;
+        @media screen and (min-width: 900px) {
+            font-size: 5vw;
+        }
+    }
+
+    .text-muted {
+        font-weight: 300;
+        margin: 10px;
+    }
+    
+    p {
+        font-size: 2vw;
+        @media screen and (max-width: 900px) {
+            font-size: 2.5rem;
+        }
+
+        @media screen and (min-width: 900px) {
+            line-height: 2vw;
+        }
+    }
+
+    .cfp-button {
+        margin-top: 10px;
+        background-color: #3478F6;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+}
