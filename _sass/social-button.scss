@@ -1,0 +1,31 @@
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sp-social ul li {
+    display: inline-block;
+}
+
+.social-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #212739;
+    display: inline-block;
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+}
+
+a.social-btn:hover {
+    background: #ff9a00;
+    color: #fff;
+}
