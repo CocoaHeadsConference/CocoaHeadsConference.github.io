@@ -1,9 +1,20 @@
-html, body {
-    height: 100vh;
+html {
+    min-height: 100%;
+}
+
+.cfp-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (max-width: 800px) {
+        background-image: url('/images/bg.png');    
+    }
+
+    background-image: url('/images/bg@1x.png');
 }
 
 #cfp {
-    margin: 20px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 40px;
@@ -11,7 +22,6 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 80%;
 
     .content {
         display: flex;
@@ -28,19 +38,22 @@ html, body {
     }
 
     h1 {
+        color: white;
         font-size: 10vw;
         margin-bottom: 10px;
         @media screen and (min-width: 900px) {
             font-size: 5vw;
         }
     }
-
+    
     .text-muted {
+        color: white;
         font-weight: 300;
         margin: 10px;
     }
     
     p {
+        color: white;
         font-size: 2vw;
         @media screen and (max-width: 900px) {
             font-size: 2.5rem;
