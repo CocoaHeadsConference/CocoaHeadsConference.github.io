@@ -1,0 +1,31 @@
+{%comment%}Get talk details from id{%endcomment%}
+{% include matchId.html 
+    dataset = site.data.2018.talks.talks                
+    idToFind = include.talk
+%}
+{% assign details = matchedObject %}
+
+{% for item in site.data.2018.speakers.speakers %}
+    {% if item.id == details.speaker %}
+    {% assign speaker = item.name %}
+    {% endif %}
+{% endfor %}
+
+<div class="schedule-block row">
+        <div class="col-md-2">
+            <h2>
+                {{ details.date | date: "%H:%M" }}
+            </h2>
+        </div>
+        <div class="col-md-10">
+            <h3>
+                {{details.title}}
+            </h3>
+            <h4>
+                {{speaker | default: "CocoaHeads"}}
+            </h4>
+            <h5>
+                {{details.summary}}
+            </h5>
+        </div>
+</div>
