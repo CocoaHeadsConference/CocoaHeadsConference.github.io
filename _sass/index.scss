@@ -1,1 +1,24 @@
 @import "index/hero.scss";
+@import "index/event-description.scss";
+
+.index-section {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #4A4A4A;
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            font-size: 4rem;
+        }
+    }
+}

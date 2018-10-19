@@ -1,0 +1,13 @@
+#event-description {
+    background-color: #F4F4F4;
+    .description {
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            margin-bottom: 20px;
+        }
+    }
+
+    .sympla {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
