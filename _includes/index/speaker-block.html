@@ -1,0 +1,17 @@
+{% if include.cfp %}
+    <div class="speaker-block cfp col-12 col-md-4 col-lg-12">
+{% else %}
+    <div class="speaker-block col-6 col-md-4 col-lg-3">
+{% endif %}
+
+    <img src="{{include.image}}">
+    <h2>{{include.name}}</h2>
+    <p>{{include.title}}</p>
+    {% if include.cfp %}
+        <a href="https://www.papercall.io/chbrconf2018" class="cfp-container">
+            <button class='cfp-button'>
+                Call For Papers
+            </button>
+        </a>
+    {% endif %}
+</div>
