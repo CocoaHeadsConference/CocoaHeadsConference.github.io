@@ -1,0 +1,46 @@
+#hero.ch-background {
+    min-height: 600px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url('/images/ch-background.png');
+    background-size: cover;
+
+    .row {
+        align-items: center;
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: lg)){
+            padding: 50px;    
+            justify-content: space-between;
+        }
+    }
+    
+    .container-fluid {
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: md)){
+            flex-grow: 1;
+        }
+    }
+    
+    h1 {
+        font-size: 1.2rem;
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: sm)){
+            font-size: 3.5rem;
+        }
+        
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+
+    nav {
+        display: flex; 
+        justify-content: flex-end;
+        padding: 20px;
+        font-size: 2rem;
+    }
+    
+    a {
+        color: white;
+    }
+}
