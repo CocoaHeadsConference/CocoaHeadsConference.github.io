@@ -1,0 +1,18 @@
+{
+    "sponsors":[
+		{
+			"id": 0,
+			"title": "Nubank",
+			"url": "https://www.nubank.com.br/",
+			"image": "http://cocoaheadsconference.com.br/images/sponsors/6.png",
+			"type": ""
+		},
+		{
+			"id": 1,
+			"title": "{PLACEHOLDER}",
+			"url": "http://www.twitter.com/",
+			"image": "http://cocoaheadsconference.com.br/images/sponsors/7.png",
+			"type": ""
+		}
+	]
+}

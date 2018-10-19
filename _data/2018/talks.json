@@ -1,0 +1,191 @@
+{
+    "talks":[
+		{
+			"id": 0,
+			"title": "Credenciamento",
+			"speaker": 0,
+			"room": 0,
+			"date": "2018-11-09T18:30:00-0300",
+			"duration": 60,
+			"summary": "Pegue seu crachá e material do evento.",
+			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
+			"type": "setup"
+		},
+		{
+			"id": 1,
+			"title": "Keynote de Abertura",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-09T19:30:00-0300",
+			"duration": 50,
+			"summary": "Declaramos aberta a 2º CocoaHeads Conference.",
+			"description": "O momento tão esperado por todos: A abertura do segundo evento nacional do CocoaHeads Brasil! Um momento muito emocionante para toda a comunidade iOS.",
+			"type": "opening"
+		},
+		{
+			"id": 2,
+			"title": "Sessão 1",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-09T20:30:00-0300",
+			"duration": 60,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 3,
+			"title": "Palestra 1",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-10T10:00:00-0300",
+			"duration": 30,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 4,
+			"title": "Palestra 2",
+			"speaker": 15,
+			"room": 4,
+			"date": "2018-11-10T10:45:00-0300",
+			"duration": 30,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 5,
+			"title": "Almoço & Networking",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-10T11:30:00-0300",
+			"duration": 90,
+			"summary": "Hora de comer!",
+			"description": "",
+			"type": "breaktime"
+		},
+		{
+			"id": 6,
+			"title": "Palestra 3",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-10T13:15:00-0300",
+			"duration": 45,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 7,
+			"title": "Palestra 4",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-10T14:30:00-0300",
+			"duration": 45,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 8,
+			"title": "Coffee-Break & Networking",
+			"speaker": 0,
+			"room": 0,
+			"date": "2018-11-10T15:30:00-0300",
+			"duration": 30,
+			"summary": "Pausa pra mais um lanche e networking",
+			"description": "Um intervalo para passear pela área comum do local, tomar um café e claro, bater papo com todos os incríveis participantes.",
+			"type": "breaktime"
+		},
+		{
+			"id": 9,
+			"title": "Palestra 5",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-10T16:10:00-0300",
+			"duration": 30,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 10,
+			"title": "Palestra 6",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-10T16:50:00-0300",
+			"duration": 40,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "talk"
+		},
+		{
+			"id": 11,
+			"title": "HAPPY HOUR",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-10T17:40:00-0300",
+			"duration": 40,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "closing"
+		},
+		{
+			"id": 12,
+			"title": "Workshop 1",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-11T10:30:00-0300",
+			"duration": 120,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "workshop"
+		},
+		{
+			"id": 13,
+			"title": "Workshop 2",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-11T10:30:00-0300",
+			"duration": 120,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "workshop"
+		},
+		{
+			"id": 14,
+			"title": "Workshop 3",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-11T10:30:00-0300",
+			"duration": 120,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "workshop"
+		},
+		{
+			"id": 15,
+			"title": "Workshop 4",
+			"speaker": 15,
+			"room": 0,
+			"date": "2018-11-11T10:30:00-0300",
+			"duration": 120,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "workshop"
+		},
+		{
+			"id": 16,
+			"title": "Festa de Encerramento",
+			"speaker": 0,
+			"room": 0,
+			"date": "2018-11-11T13:00:00-0300",
+			"duration": 120,
+			"summary": "TBA",
+			"description": "TBA",
+			"type": "closing"
+		}
+	]
+}

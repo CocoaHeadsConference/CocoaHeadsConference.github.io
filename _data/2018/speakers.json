@@ -1,0 +1,51 @@
+{
+    "speakers":[
+        {
+            "id": 1,
+            "name": "Aline Borges",
+            "image": "images/team/guilherme-rambo.jpg",
+            "smallimage": "images/resource/guilhermerambo.png",
+            "title": "Lead Developer",
+            "bio": "",
+            "citation": "",
+            "twitterHandle": "_inside",
+            "linkedinHandler": "guilherme-rambo-78506425",
+            "githubHandler": "insidegui"
+        },
+        {
+            "id": 2,
+            "name": "Guilherme Rambo",
+            "image": "images/team/guilherme-rambo.jpg",
+            "smallimage": "images/resource/guilhermerambo.png",
+            "title": "Groupon Latin America | 9to5mac | Stacktrace Podcast",
+            "bio": "Rambo é dev, podcaster e \"engenheiro reverso\". Trabalha para a Groupon Latin America, escreve para o 9To5Mac, é co-host do podcast Stacktrace e adora desvendar mistérios da Apple explorando SDKs, frameworks e firmwares. Ele também é o criador do app WWDC para Mac e muitos outros projetos open source.",
+            "citation": "",
+            "twitterHandle": "_inside",
+            "linkedinHandler": "guilherme-rambo-78506425",
+            "githubHandler": "insidegui"
+        },    {
+            "id": 3,
+            "name": "Bruno e Pietro",
+            "image": "images/team/guilherme-rambo.jpg",
+            "smallimage": "images/resource/guilhermerambo.png",
+            "title": "Lead Developer",
+            "bio": "Criador do famoso app da WWDC para macOS, trabalha há alguns anos com desenvolvimento para Mac e iOS, possuí atualmente 6 apps publicados e diversos projetos open-source.",
+            "citation": "",
+            "twitterHandle": "_inside",
+            "linkedinHandler": "guilherme-rambo-78506425",
+            "githubHandler": "insidegui"
+        },
+        {
+            "id": 4,
+            "name": "Juliana Chahoud",
+            "image": "images/team/guilherme-rambo.jpg",
+            "smallimage": "images/resource/guilhermerambo.png",
+            "title": "Lead Developer",
+            "bio": "Criador do famoso app da WWDC para macOS, trabalha há alguns anos com desenvolvimento para Mac e iOS, possuí atualmente 6 apps publicados e diversos projetos open-source.",
+            "citation": "",
+            "twitterHandle": "_inside",
+            "linkedinHandler": "guilherme-rambo-78506425",
+            "githubHandler": "insidegui"
+        }
+    ]
+}
