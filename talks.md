@@ -7,6 +7,8 @@ layout: main
     
     <p class="center" >Confira todos os talks que rolaram lá na conferência!</p>
 
+    <div class="row">
+
     {% for video in site.data.videos.videos %}
 
             {% include matchId.html 
@@ -17,4 +19,6 @@ layout: main
             {% include talk-block.html talk=matchedObject %}
 
     {% endfor %}
+
+    </div>
 </div>
