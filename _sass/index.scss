@@ -1,15 +1,20 @@
-@import "index/hero.scss";
-@import "index/event-description.scss";
-@import "index/speakers.scss";
-@import "index/schedule.scss";
+@import "index/hero";
+@import "index/event-description";
+@import "index/speakers";
+@import "index/schedule";
+@import "index/date";
 
 .index-section {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
     p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 2rem;
         @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: lg)){
             font-size: 1rem;
             line-height: 1.5rem;
         }
