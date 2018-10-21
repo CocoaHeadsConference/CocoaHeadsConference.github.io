@@ -3,11 +3,12 @@
 @import "index/speakers";
 @import "index/schedule";
 @import "index/date";
+@import "index/footer";
 
 .index-section {
     padding-top: 20px;
     padding-bottom: 20px;
-    p {
+    p,a {
         font-size: 1.3rem;
         line-height: 2rem;
         @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
