@@ -1,0 +1,32 @@
+@import "index/hero.scss";
+@import "index/event-description.scss";
+@import "index/speakers.scss";
+@import "index/schedule.scss";
+@import "index/date.scss";
+@import "index/footer.scss";
+
+.index-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p,a {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: lg)){
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #4A4A4A;
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
+            font-size: 4rem;
+        }
+    }
+}

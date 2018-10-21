@@ -2,12 +2,14 @@
     margin-bottom: 20px;
     h1{        
         margin-bottom: 20px;
+        font-size: 1.5rem;
     }
     .transcription{
-
         .description{
             color: #888;
             margin-bottom: 20px;
+            font-size: 1rem;
+            line-height: 1.1rem;
         }
     }
     aside{
@@ -18,21 +20,21 @@
         padding-top: 20px;
         h2{            
             margin-top: 5px;
-            font-size: 2.5rem;            
         }                    
         .description{
             text-align: left;
             font-size: 2rem;
             line-height: 1rem;
-        }        
-
+        } 
+        .sp-social {
+            margin-top: 10px;
+        }       
         @media(max-width: 1023px){
             margin-top: 10px;
             margin-bottom: 10px;
         } 
     }
     p{
-        font-size: 2rem;
         color: #444;
     }
 }

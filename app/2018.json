@@ -1,0 +1,82 @@
+---
+#frontmatter necessário para que o jekyll compile o json
+---
+{
+	"event": {
+		"name":"Cocoaheads Conference 2018",
+		"headline":"O evento nacional do CocoaHeads Brasil.",
+		"subline": "Reunindo mais de 300 desenvolvedores, com muito conteúdo sobre iOS, watchOS, macOS e tvOS. Venha fazer parte!",
+		"startDate":"2018-11-09T18:30:00-0300",
+		"twitter": "cocoaheadsbr",
+		"codeOfConduct":"https://github.com/CocoaHeadsConference/CocoaHeadsConferenceCodigoDeConduta/blob/master/README.md",
+		"endDate":"2018-11-11T13:00:00-0300",
+		"location": {
+			"address":"Rua Capote Valente, 39 \nSão Paulo - SP",
+			"coordinate": {
+				"lat": -23.560935,
+                "long": -46.673579
+			}
+		}
+	},
+	"theme": {
+		"main": "004D40",
+		"action": "1abc9c",
+		"contrasting": "FFFFFF",
+		"shadow": "000000",
+		"talk":"00c300",
+		"workshop":"00838F",
+		"opening":"AD1457",
+		"closing":"AD1457",
+		"breaktime":"F9A825",
+		"setup":"9E9D24"
+	},
+	"sponsors":[{% for sponsor in site.data.2018.sponsors.sponsors %}
+		{
+			"id": {{sponsor.id}},
+			"title": "{{sponsor.title}}",
+			"url": "{{sponsor.url}}",
+			"image": "{{sponsor.image}}",
+			"type": "{{sponsor.type}}"	
+		}{% unless forloop.last %},{% endunless %}{% endfor %}
+	],
+	"speakers":[{% for speaker in site.data.2018.speakers.speakers %}
+		{
+			"id": {{speaker.id}},
+			"name": "{{speaker.name}}",
+			"image": "{{speaker.image}}",
+			"title": "{{speaker.title}}",
+			"bio": "{{speaker.bio}}",
+			"citation": "{{speaker.citation}}",
+			"twitterHandle": "{{speaker.twitterHandle}}",
+			"linkedinHandler": "{{speaker.linkedinHandler}}",
+			"githubHandler": "{{speaker.githubHandler}}"			 			 
+		}{% unless forloop.last %},{% endunless %}{% endfor %}
+	],
+	"rooms":[{%for room in site.data.2018.rooms.rooms %}
+		{
+			"id": {{room.id}},
+			"title": "{{room.title}}",
+			"capacity": {{room.capacity}}
+		}{% unless forloop.last %},{% endunless %}{% endfor %}
+	],
+	"talks":[{% for talk in site.data.2018.talks.talks %}
+		{
+			"id": {{talk.id}},
+			"title": "{{talk.title}}",
+			"speaker": {{talk.speaker}},
+			"room": {{talk.room}},
+			"date": "{{talk.date}}",
+			"duration": {{talk.duration}},
+			"summary": "{{talk.summary}}",
+			"description": "{{talk.description}}",
+			"type": "{{talk.type}}"	
+		}{% unless forloop.last%},{% endunless %}{% endfor %}	
+	],	
+	"videos":[{% for video in site.data.2018.videos.videos %}
+		{
+			"id": {{video.id}},
+			"talk": {{video.talk}},
+			"youtube_url": "https://www.youtube.com/watch?v={{video.youtube_url}}"			
+		}{% unless forloop.last %},{% endunless %}{% endfor %}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    	"rooms":[
+		{
+			"id":0,
+			"title": "Recepção",
+			"capacity": 0
+		},
+		{
+			"id":1,
+			"title": "Auditório",
+			"capacity": 300
+		}
+	]   
+}

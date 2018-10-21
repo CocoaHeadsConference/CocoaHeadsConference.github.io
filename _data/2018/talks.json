@@ -1,0 +1,26 @@
+{
+    "talks":[
+		{
+			"id": 0,
+			"title": "Credenciamento",
+			"speaker": 0,
+			"room": 0,
+			"date": "2018-11-09T17:30:00-0300",
+			"duration": 60,
+			"summary": "Pegue seu crachá e material do evento.",
+			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
+			"type": "setup"
+		},
+		{
+			"id": 1,
+			"title": "Credenciamento",
+			"speaker": 0,
+			"room": 0,
+			"date": "2018-11-10T09:00:00-0300",
+			"duration": 60,
+			"summary": "Pegue seu crachá e material do evento.",
+			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
+			"type": "setup"
+		}
+	]
+}
