@@ -1,7 +1,8 @@
-<section id="schedule" class="index-section">
+<section id="schedule" class="index-section top-line">
+    <hr>
     <div class="container">
         <h1>Horários</h1>
-        <p>Schedule completo das talks em breve!</p>
+        <p>Sujeito a mudanças. Grade completa após o fim do Call for Papers.</p>
         <div class="row">
             <h2 class="date">Sexta-feira, 09/11</h2>
                 {% comment %} Isso vai ficar bem feio porque o Liquid não suporta arrays de verdade {%endcomment%}
@@ -22,5 +23,14 @@
                         %}
                     {% endif %}
                 {% endfor %}	
-    </div>
+            <h2 class="date">Domingo, 11/11</h2>
+                {% for talk in site.data.2018.talks.talks %}
+                    {% assign date = talk.date | date: "%d" %}
+                    {% if date == '11' %} 
+                        {% include index/schedule-block.html 
+                            talk = talk.id
+                        %}
+                    {% endif %}
+                {% endfor %}	
+        </div>
 </section>

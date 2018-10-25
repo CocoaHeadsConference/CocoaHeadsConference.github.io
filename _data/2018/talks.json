@@ -1,26 +1,48 @@
 {
     "talks":[
 		{
-			"id": 0,
+			"id": 90,
 			"title": "Credenciamento",
 			"speaker": 0,
 			"room": 0,
-			"date": "2018-11-09T17:30:00-0300",
+			"date": "2018-11-09T18:30:00-0300",
 			"duration": 60,
 			"summary": "Pegue seu crachá e material do evento.",
 			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
 			"type": "setup"
 		},
 		{
-			"id": 1,
-			"title": "Credenciamento",
+			"id": 91,
+			"title": "Keynote de Abertura",
+			"speaker": 15,
+			"room": 1,
+			"date": "2018-11-09T19:30:00-0300",
+			"duration": 50,
+			"summary": "Declaramos aberta a 2º CocoaHeads Conference.",
+			"description": "O momento tão esperado por todos: A abertura do segundo evento nacional do CocoaHeads Brasil! Um momento muito emocionante para toda a comunidade iOS.",
+			"type": "opening"
+		},
+		{
+			"id": 100,
+			"title": "Credenciamento e Café da manhã",
 			"speaker": 0,
 			"room": 0,
 			"date": "2018-11-10T09:00:00-0300",
 			"duration": 60,
-			"summary": "Pegue seu crachá e material do evento.",
+			"summary": "Não conseguiu fazer o credenciamento ainda? Aproveite este horário para pegar o seu crachá e os materiais do evento :)",
 			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
 			"type": "setup"
+		},
+		{
+			"id": 110,
+			"title": "Workshops e Café da manhã",
+			"speaker": 0,
+			"room": 0,
+			"date": "2018-11-11T10:00:00-0300",
+			"duration": 60,
+			"summary": "Venha participar dos workshops que preparamos e aproveite para tomar um café da manhã para começar o dia",
+			"description": "",
+			"type": "workshop"
 		}
 	]
 }
