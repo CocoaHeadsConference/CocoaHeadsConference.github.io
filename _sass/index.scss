@@ -5,6 +5,7 @@
 @import "index/date.scss";
 @import "index/footer.scss";
 @import "index/place.scss";
+@import "index/sponsors.scss";
 
 .index-section {
     padding-top: 20px;
@@ -30,4 +31,8 @@
             font-size: 4rem;
         }
     }
+}
+
+.bg-gray {
+    background-color: #F4F4F4;
 }

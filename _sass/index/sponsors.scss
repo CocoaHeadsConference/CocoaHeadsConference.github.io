@@ -1,0 +1,32 @@
+#sponsors {
+    .nu {
+        border-radius: 100%;
+    }
+    
+    .platinum {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    @media screen and (min-width: map-get($map: $container-max-widths, $key: md)){
+        padding: 80px;
+        img {
+            max-height: 200px;
+            margin-top: 40px;
+        }
+    }
+
+    @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+        h1 {
+            font-size: 2rem;
+        }
+
+        .platinum {
+            flex-direction: column;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
