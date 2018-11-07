@@ -1,51 +1,211 @@
 {
-    "speakers":[
-        {
-            "id": 1,
-            "name": "Aline Borges",
-            "image": "images/team/guilherme-rambo.jpg",
-            "smallimage": "images/resource/guilhermerambo.png",
-            "title": "Lead Developer",
-            "bio": "",
-            "citation": "",
-            "twitterHandle": "_inside",
-            "linkedinHandler": "guilherme-rambo-78506425",
-            "githubHandler": "insidegui"
-        },
-        {
-            "id": 2,
-            "name": "Guilherme Rambo",
-            "image": "images/team/guilherme-rambo.jpg",
-            "smallimage": "images/resource/guilhermerambo.png",
-            "title": "Groupon Latin America | 9to5mac | Stacktrace Podcast",
-            "bio": "Rambo é dev, podcaster e engenheiro reverso. Trabalha para a Groupon Latin America, escreve para o 9To5Mac, é co-host do podcast Stacktrace e adora desvendar mistérios da Apple explorando SDKs, frameworks e firmwares. Ele também é o criador do app WWDC para Mac e muitos outros projetos open source.",
-            "citation": "",
-            "twitterHandle": "_inside",
-            "linkedinHandler": "guilherme-rambo-78506425",
-            "githubHandler": "insidegui"
-        },    {
-            "id": 3,
-            "name": "Bruno e Pietro",
-            "image": "images/team/guilherme-rambo.jpg",
-            "smallimage": "images/resource/guilhermerambo.png",
-            "title": "Lead Developer",
-            "bio": "Criador do famoso app da WWDC para macOS, trabalha há alguns anos com desenvolvimento para Mac e iOS, possuí atualmente 6 apps publicados e diversos projetos open-source.",
-            "citation": "",
-            "twitterHandle": "_inside",
-            "linkedinHandler": "guilherme-rambo-78506425",
-            "githubHandler": "insidegui"
-        },
-        {
-            "id": 4,
-            "name": "Juliana Chahoud",
-            "image": "images/team/guilherme-rambo.jpg",
-            "smallimage": "images/resource/guilhermerambo.png",
-            "title": "Lead Developer",
-            "bio": "Criador do famoso app da WWDC para macOS, trabalha há alguns anos com desenvolvimento para Mac e iOS, possuí atualmente 6 apps publicados e diversos projetos open-source.",
-            "citation": "",
-            "twitterHandle": "_inside",
-            "linkedinHandler": "guilherme-rambo-78506425",
-            "githubHandler": "insidegui"
-        }
-    ]
+	"speakers": [{
+		"id": 1,
+		"name": "Aline Borges",
+		"image": "/images/team/aline-borges.png",
+		"smallImage": "/images/team/aline-borges.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 3,
+		"name": "Guilherme Rambo",
+		"image": "/images/team/gui-rambo.png",
+		"smallImage": "/images/team/gui-rambo.png",
+		"title": "Groupon Latin America | 9to5mac | Stacktrace Podcast",
+		"bio": "Rambo é dev, podcaster e engenheiro reverso. Trabalha para a Groupon Latin America, escreve para o 9To5Mac, é co-host do podcast Stacktrace e adora desvendar mistérios da Apple explorando SDKs, frameworks e firmwares. Ele também é o criador do app WWDC para Mac e muitos outros projetos open source.",
+		"citation": "",
+		"twitterHandle": "_inside",
+		"linkedinHandler": "guilherme-rambo-78506425",
+		"githubHandler": "insidegui"
+	}, {
+		"id": 4,
+		"name": "Pietro & Bruno",
+		"image": "/images/team/pietro-bruno.png",
+		"smallImage": "/images/team/pietro-bruno.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 5,
+		"name": "Juliana Chahoud",
+		"image": "/images/team/juliana-chahoud.png",
+		"smallImage": "/images/team/juliana-chahoud.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 6,
+		"name": "Anderson Santos Gusmão",
+		"image": "/images/team/andersongusmao.png",
+		"smallImage": "/images/team/andersongusmao.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 7,
+		"name": "Victor Almeida",
+		"image": "/images/team/victorabda.png",
+		"smallImage": "/images/team/victorabda.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 9,
+		"name": "Flávio Caetano",
+		"image": "/images/team/flaviocaetano.jpg",
+		"smallImage": "/images/team/flaviocaetano.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 10,
+		"name": "Victor dos Santos Melo",
+		"image": "/images/team/victorsmelo.jpeg",
+		"smallImage": "/images/team/victorsmelo.jpeg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 11,
+		"name": "Victor Maraccini",
+		"image": "/images/team/victormaraccini.jpg",
+		"smallImage": "/images/team/victormaraccini.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 12,
+		"name": "Ronan Rodrigo Nunes",
+		"image": "/images/team/ronannunes.jpg",
+		"smallImage": "/images/team/ronannunes.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 13,
+		"name": "Roberth, Carlos e Luis",
+		"image": "/images/team/roberthcrew.png",
+		"smallImage": "/images/team/roberthcrew.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 14,
+		"name": "Rafael Zanin & Luan Costa",
+		"image": "/images/team/rafaelzanin.png",
+		"smallImage": "/images/team/rafaelzanin.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 15,
+		"name": "Carlos A. Savi",
+		"image": "/images/team/carlossavi.jpeg",
+		"smallImage": "/images/team/carlossavi.jpeg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 16,
+		"name": "Francesco Perrotti-Garcia",
+		"image": "/images/team/francescoperrottigarcia.jpg",
+		"smallImage": "/images/team/francescoperrottigarcia.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 17,
+		"name": "Carlos Rodrigues",
+		"image": "/images/team/carlosrodrigues.jpg",
+		"smallImage": "/images/team/carlosrodrigues.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 18,
+		"name": "Pedro Emanuel",
+		"image": "/images/team/pedroemanuel.jpg",
+		"smallImage": "/images/team/pedroemanuel.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 19,
+		"name": "Rodrigo Dias",
+		"image": "/images/team/rodrigo-dias.png",
+		"smallImage": "/images/team/rodrigo-dias.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 20,
+		"name": "Hercules Junior",
+		"image": "/images/team/hercules-junior.jpg",
+		"smallImage": "/images/team/hercules-junior.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}, {
+		"id": 21,
+		"name": "Fellipe Caetano",
+		"image": "/images/team/fellipe-caetano.jpg",
+		"smallImage": "/images/team/fellipe-caetano.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+	}]
 }
