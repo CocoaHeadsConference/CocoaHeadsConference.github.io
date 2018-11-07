@@ -207,5 +207,28 @@
 		"twitterHandle": "",
 		"linkedinHandler": "",
 		"githubHandler": ""
-	}]
+    }, {
+		"id": 22,
+		"name": "Rambo & Tais",
+		"image": "/images/team/rambo-tais.png",
+		"smallImage": "/images/team/rambo-tais.png",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+    }, {
+		"id": 23,
+		"name": "Tales Pinheiro",
+		"image": "/images/team/talespinheiro.jpg",
+		"smallImage": "/images/team/talespinheiro.jpg",
+		"title": "",
+		"bio": "",
+		"citation": "",
+		"twitterHandle": "",
+		"linkedinHandler": "",
+		"githubHandler": ""
+    }
+]
 }
