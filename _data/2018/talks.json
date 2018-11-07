@@ -52,7 +52,7 @@
 		"duration": "60",
 		"summary": "Não conseguiu fazer o credenciamento ainda? Aproveite este horário para pegar o seu crachá e os materiais do evento :)",
 		"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
-		"type": "60"
+		"type": "setup"
 	}, {
 		"id": 7,
 		"title": "Novidades no ARKit 2",
@@ -84,7 +84,7 @@
 		"room": 1,
 		"date": "2018-11-10T11:15:00-0200",
 		"duration": "35",
-		"type": "Talk"
+		"type": "talk"
 	}, {
 		"id": 11,
 		"title": "⚡️ Distribuição: Revisão da Apple",
@@ -189,7 +189,7 @@
 		"date": "2018-11-11T10:00:00-0200",
 		"duration": "120",
 		"summary": "Venha participar dos workshops que preparamos e aproveite para tomar um café da manhã para começar o dia",
-		"type": "120"
+		"type": "setup"
 	}, {
 		"id": 24,
 		"title": "Encerramento",
