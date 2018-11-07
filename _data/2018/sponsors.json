@@ -4,21 +4,21 @@
 			"id": 0,
 			"title": "Nubank",
 			"url": "https://www.nubank.com.br/",
-			"image": "http://cocoaheadsconference.com.br/images/sponsors/nu.png",
+			"image": "http://cocoaheadsconference.com.br/images/sponsors/nu-app.jpg",
 			"type": ""
 		},
 		{
 			"id": 1,
 			"title": "Involves",
 			"url": "https://www.involves.com.br/pt",
-			"image": "http://cocoaheadsconference.com.br/images/sponsors/involves.png",
+			"image": "http://cocoaheadsconference.com.br/images/sponsors/involves-app.png",
 			"type": ""
 		},
 		{
 			"id": 2,
 			"title": "Work&Co",
 			"url": "https://work.co",
-			"image": "http://cocoaheadsconference.com.br/images/sponsors/work-co.jpg",
+			"image": "http://cocoaheadsconference.com.br/images/sponsors/work-co-app.jpg",
 			"type": ""
 		}
 	]
