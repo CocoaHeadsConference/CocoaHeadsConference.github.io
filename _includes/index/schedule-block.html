@@ -3,13 +3,9 @@
     dataset = site.data.2018.talks.talks                
     idToFind = include.talk
 %}
-{% assign details = matchedObject %}
 
-{% for item in site.data.2018.speakers.speakers %}
-    {% if item.id == details.speaker %}
-    {% assign speaker = item.name %}
-    {% endif %}
-{% endfor %}
+{% assign details = matchedObject %}
+{% assign speaker = site.data.2018.speakers.speakers | where:"id",details.speaker | first %}
 
 <div class="schedule-block row">
         <div class="col-md-2">
@@ -22,7 +18,7 @@
                 {{details.title}}
             </h3>
             <h4>
-                {{speaker | default: "CocoaHeads"}}
+                {{speaker.name | default: "CocoaHeads"}}
             </h4>
             <h5>
                 {{details.summary}}

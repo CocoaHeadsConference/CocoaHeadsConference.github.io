@@ -1,48 +1,202 @@
 {
-    "talks":[
-		{
-			"id": 90,
-			"title": "Credenciamento",
-			"speaker": 0,
-			"room": 0,
-			"date": "2018-11-09T18:30:00-0300",
-			"duration": 60,
-			"summary": "Pegue seu crachá e material do evento.",
-			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
-			"type": "setup"
-		},
-		{
-			"id": 91,
-			"title": "Keynote de Abertura",
-			"speaker": 0,
-			"room": 1,
-			"date": "2018-11-09T19:30:00-0300",
-			"duration": 50,
-			"summary": "Declaramos aberta a 2º CocoaHeads Conference.",
-			"description": "O momento tão esperado por todos: A abertura do segundo evento nacional do CocoaHeads Brasil! Um momento muito emocionante para toda a comunidade iOS.",
-			"type": "opening"
-		},
-		{
-			"id": 100,
-			"title": "Credenciamento e Café da manhã",
-			"speaker": 0,
-			"room": 0,
-			"date": "2018-11-10T09:00:00-0300",
-			"duration": 60,
-			"summary": "Não conseguiu fazer o credenciamento ainda? Aproveite este horário para pegar o seu crachá e os materiais do evento :)",
-			"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
-			"type": "setup"
-		},
-		{
-			"id": 110,
-			"title": "Workshops e Café da manhã",
-			"speaker": 0,
-			"room": 0,
-			"date": "2018-11-11T10:00:00-0300",
-			"duration": 60,
-			"summary": "Venha participar dos workshops que preparamos e aproveite para tomar um café da manhã para começar o dia",
-			"description": "",
-			"type": "workshop"
-		}
-	]
+	"talks": [{
+		"id": 1,
+		"title": "Credenciamento & Coffee Break",
+		"speaker": "0",
+		"room": 0,
+		"date": "2018-11-09T18:30:00-0200",
+		"duration": "60",
+		"summary": "Pegue seu crachá e material do evento.",
+		"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
+		"type": "setup"
+	}, {
+		"id": 2,
+		"title": "Keynote de Abertura",
+		"speaker": "22",
+		"room": 1,
+		"date": "2018-11-09T19:30:00-0200",
+		"duration": "35",
+		"summary": "Declaramos aberta a 2º CocoaHeads Conference.",
+		"description": "O momento tão esperado por todos: A abertura do segundo evento nacional do CocoaHeads Brasil! Um momento muito emocionante para toda a comunidade iOS.",
+		"type": "opening"
+	}, {
+		"id": 3,
+		"title": "Uma decisão pode custar caro",
+		"speaker": "12",
+		"room": 1,
+		"date": "2018-11-09T20:00:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 4,
+		"title": "Animations to the next level",
+		"speaker": "1",
+		"room": 1,
+		"date": "2018-11-09T20:30:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 5,
+		"title": "Fish Bowl (Debate e Boas Vindas)",
+		"speaker": "0",
+		"room": 1,
+		"date": "2018-11-09T21:00:00-0200",
+		"duration": "60",
+		"type": "talk"
+	}, {
+		"id": 6,
+		"title": "Credenciamento",
+		"speaker": "0",
+		"room": 1,
+		"date": "2018-11-10T09:00:00-0200",
+		"duration": "60",
+		"summary": "Não conseguiu fazer o credenciamento ainda? Aproveite este horário para pegar o seu crachá e os materiais do evento :)",
+		"description": "Aproveite esse momento para se apresentar aos participantes, conhecer aquela pessoa que você conversa apenas pela internet e postar sobre o evento nas redes sociais.",
+		"type": "60"
+	}, {
+		"id": 7,
+		"title": "Novidades no ARKit 2",
+		"speaker": "10",
+		"room": 1,
+		"date": "2018-11-10T10:00:00-0200",
+		"duration": "25",
+		"type": "talk"
+	}, {
+		"id": 8,
+		"title": "⚡️ Monitor de temperatura - Arduino + Bluetooth + iOS",
+		"speaker": "6",
+		"room": 1,
+		"date": "2018-11-10T10:25:00-0200",
+		"duration": "15",
+		"type": "talk"
+	}, {
+		"id": 9,
+		"title": "Acessibilidade: VoiceOver e boas práticas",
+		"speaker": "19",
+		"room": 1,
+		"date": "2018-11-10T10:40:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 10,
+		"title": "Siri Shortcuts",
+		"speaker": "9",
+		"room": 1,
+		"date": "2018-11-10T11:15:00-0200",
+		"duration": "35",
+		"type": "Talk"
+	}, {
+		"id": 11,
+		"title": "⚡️ Distribuição: Revisão da Apple",
+		"speaker": "17",
+		"room": 1,
+		"date": "2018-11-10T11:50:00-0200",
+		"duration": "15",
+		"type": "talk"
+	}, {
+		"id": 12,
+		"title": "Almoço",
+		"speaker": "0",
+		"room": 1,
+		"date": "2018-11-10T12:05:00-0200",
+		"duration": "90",
+		"type": "breaktime"
+	}, {
+		"id": 13,
+		"title": "Efeitos colaterais em apps iOS: isolando-os e atingindo máxima testabilidade na prática",
+		"speaker": "21",
+		"room": 1,
+		"date": "2018-11-10T13:35:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 14,
+		"title": "Engenharia Reversa 101",
+		"speaker": "3",
+		"room": 1,
+		"date": "2018-11-10T14:10:00-0200",
+		"duration": "50",
+		"type": "talk"
+	}, {
+		"id": 15,
+		"title": "⚡️ De 0 a 99, seja aberto a mudanças",
+		"speaker": "18",
+		"room": 1,
+		"date": "2018-11-10T15:00:00-0200",
+		"duration": 15,
+		"type": "talk"
+	}, {
+		"id": 16,
+		"title": "Porque juntei nossas dependencias em um repositorio unico",
+		"speaker": "4",
+		"room": 1,
+		"date": "2018-11-10T15:15:00-0200",
+		"duration": "45",
+		"type": "talk"
+	}, {
+		"id": 17,
+		"title": "Coffee Break",
+		"speaker": "0",
+		"room": 1,
+		"date": "2018-11-10T16:00:00-0200",
+		"duration": "35",
+		"type": "breaktime"
+	}, {
+		"id": 18,
+		"title": "Além de prints e breakpoints: truques para um Debug avançado",
+		"speaker": "5",
+		"room": 1,
+		"date": "2018-11-10T16:35:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 19,
+		"title": "3M Filtrete - Integrando CoreBluetooth a um filtro de ar",
+		"speaker": "20",
+		"room": 1,
+		"date": "2018-11-10T17:10:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 20,
+		"title": "⚡️ Prototipagem de baixo custo para Realidade Aumentada",
+		"speaker": "7",
+		"room": 1,
+		"date": "2018-11-10T17:45:00-0200",
+		"duration": "15",
+		"type": "talk"
+	}, {
+		"id": 21,
+		"title": "Desacoplando fluxos com coordinators e rotas",
+		"speaker": "11",
+		"room": 1,
+		"date": "2018-11-10T18:00:00-0200",
+		"duration": "35",
+		"type": "talk"
+	}, {
+		"id": 22,
+		"title": "Sessão de Workshops 1",
+		"speaker": "0",
+		"room": 2,
+		"date": "2018-11-11T10:00:00-0200",
+		"duration": "120",
+		"type": "workshop"
+	}, {
+		"id": 23,
+		"title": "Coffee Break, Café da Manhã & Networking",
+		"speaker": "0",
+		"room": 1,
+		"date": "2018-11-11T10:00:00-0200",
+		"duration": "120",
+		"summary": "Venha participar dos workshops que preparamos e aproveite para tomar um café da manhã para começar o dia",
+		"type": "120"
+	}, {
+		"id": 24,
+		"title": "Encerramento",
+		"speaker": "23",
+		"room": 1,
+		"date": "2018-11-11T12:30:00-0200",
+		"duration": "30",
+		"type": "closing"
+	}]
 }
