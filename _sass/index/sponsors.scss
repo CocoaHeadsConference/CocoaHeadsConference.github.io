@@ -12,11 +12,22 @@
         padding: 80px;
         img {
             max-height: 200px;
-            margin-top: 40px;
+            margin-top: 10px;
         }
     }
+    @media screen and (min-width: map-get($map: $container-max-widths, $key: md)) and 
+                      (max-width: map-get($map: $container-max-widths, $key: lg)) {
+        img {
+            width: 200px;
+        }
 
-    @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+    }
+    
+    .silver {
+        margin-top: 40px;
+    }
+
+    @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
         h1 {
             font-size: 2rem;
         }

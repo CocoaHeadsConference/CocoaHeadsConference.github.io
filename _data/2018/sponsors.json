@@ -20,6 +20,13 @@
 			"url": "https://work.co",
 			"image": "http://cocoaheadsconference.com.br/images/sponsors/work-co-app.jpg",
 			"type": ""
+		},
+		{
+			"id": 3,
+			"title": "Sympla",
+			"url": "https://sympla.com.br",
+			"image": "http://cocoaheadsconference.com.brimages/sponsors/sympla-app.png",
+			"type": ""
 		}
 	]
 }
