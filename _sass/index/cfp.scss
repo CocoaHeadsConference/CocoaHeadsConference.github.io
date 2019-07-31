@@ -3,14 +3,7 @@ html {
 }
 
 .cfp-background {
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    @media screen and (max-width: 800px) {
-        background-image: url('/images/bg.png');    
-    }
-
-    background-image: url('/images/bg@1x.png');
+    background-color: #1E2029;
 }
 
 #cfp {
@@ -21,7 +14,8 @@ html {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 100vh;
     
     .content {
         display: flex;
@@ -34,7 +28,7 @@ html {
         max-height: 50vh;
         max-width: 50vh;
         @media screen and (max-width: 500px) {
-            padding: 20px;
+            padding-top: 50px;
         }
     }
 
@@ -54,10 +48,15 @@ html {
     }
     
     p {
-        color: white;
+        color: #69BD45;
         font-size: 2vw;
+        padding-bottom: 10px;
         @media screen and (max-width: 900px) {
             font-size: 2.5rem;
+        }
+
+        @media screen and (max-width: 450px) {
+            font-size: 1.5rem;
         }
 
         @media screen and (min-width: 900px) {
@@ -65,20 +64,24 @@ html {
         }
     }
 
-    .cfp-button {
-        margin-top: 10px;
-        background-color: #3478F6;
-        color: white;
-        padding: 20px;
-        border-radius: 20px;
-        font-size: 2rem;
-        margin-bottom: 20px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    h2 {
+        color: #FFE900;
+        font-size: 3rem;
+
+        @media screen and (max-width: 450px) {
+            font-size: 1.5rem;
+        }
     }
 
-    #sympla-widget-376152 {
-        @media screen and (min-width: 600px) {
-            width: 500px;
-        }
+    .cfp-button {
+        margin-top: 10px;
+        background-color: #00BAE3;
+        color: white;
+        padding: 20px;
+        border-radius: 60px;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 300px;
     }
 }

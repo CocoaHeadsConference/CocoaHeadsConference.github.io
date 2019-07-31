@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CocoaHeads Conference
-email: your-email@domain.com
-description: CocoaHeads Conference 2018, a maior conferência dedicada exclusivamente ao desenvolvimento Apple. Talks, Workshops & Code Labs com os melhores palestrantes da comunidade. Inscreva-se para o Call for Papers! Ingressos à venda!
+title: NSBrazil
+email: contato@cocoaheads.com.br
+description: NSBrazil 2019, o maior evento dedicado exclusivamente ao desenvolvimento em plataformas Apple do Brasil. Talks, Workshops & Code Labs com os melhores palestrantes da comunidade. Inscreva-se para o Call for Papers! Ingressos em breve! Um evento CocoaHeads Brasil
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cocoaheadsconference.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cocoaheadsconf
+twitter_username: nsbrazilconf
 github_username:  cocoaheadsconference
 
 # Build settings
