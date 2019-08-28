@@ -1,17 +1,19 @@
+{% assign t = site.data.2019.i18n.cfp[page.lang] %}
+
 <section id='cfp'>
     <img src='/images/logo/nsbrazil_logo_final.svg'>
         <div>
-            <p>{% t cfp.heading %}</p>
-            <p><strong>{% t cfp.date %}</strong></p>
+            <p>{{t.heading}}</p>
+            <p><strong>{{t.date}}</strong></p>
         </div>
         
-        <h2>{% t cfp.opencfp %}</h2>
+        <h2>{{t.opencfp}}</h2>
         <a href='/talks.html' class='text-muted'>
-            {% t cfp.watch  %}
+            {{t.watch}}
         </a>
         <a href="https://www.papercall.io/nsbrazil">
             <button class='cfp-button'>
-                {% t cfp.submit %}
+                {{t.submit}}
             </button>
         </a>
 </section>

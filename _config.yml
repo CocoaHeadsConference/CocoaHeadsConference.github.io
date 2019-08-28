@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: NSBrazil
 email: contato@cocoaheads.com.br
-description: NSBrazil 2019, o maior evento dedicado exclusivamente ao desenvolvimento em plataformas Apple do Brasil. Talks, Workshops & Code Labs com os melhores palestrantes da comunidade. Inscreva-se para o Call for Papers! Ingressos em breve! Um evento CocoaHeads Brasil
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nsbrazil.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nsbrazilconf
@@ -24,19 +23,13 @@ github_username:  cocoaheadsconference
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-feed
-  - jekyll-multiple-languages-plugin
 exclude:
   - Gemfile
   - Gemfile.lock
-
-languages: ["pt", "en"]
-exclude_from_localizations: ["assets", "css", "images", "js"]
 
 collections:
   talks:
     output: true
     permalink: /talks/:path/
   slides:
-    output: false    
+    output: false
