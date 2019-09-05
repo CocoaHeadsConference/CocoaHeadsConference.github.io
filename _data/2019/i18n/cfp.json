@@ -1,16 +1,20 @@
 {
     "pt": {
         "heading": "A maior conferência nacional de iOS está de volta!",
-        "date": "9 e 10 de Novembro em São Paulo",
-        "opencfp": "Call for papers aberto!",
+        "date": "9 e 10 de Novembro em São Paulo no CUBO Itaú",
+        "opencfp": "Call For Papers termina no dia 15 de setembro, submeta sua talk!",
         "watch": "Assista a talks passadas clicando aqui",
-        "submit": "Submeta sua talk!"
+        "submit": "Submeta sua talk!",
+        "widget-src": "https://www.sympla.com.br/js/sympla.widget-pt.js/600507",
+        "tickets-for-sale": "Ingressos à venda!"
     },
     "en": {
         "heading": "Brazil's biggest iOS conference is back!",
-        "date": "November 9th and 10th @ São Paulo",
-        "opencfp": "Call for papers open!",
+        "date": "November 9th and 10th @ São Paulo at CUBO Itau",
+        "opencfp": "Call for papers ends on september 15th, submit your talk!",
         "watch": "Click here to watch talks from past editions",
-        "submit": "Submit your talk!"
+        "submit": "Submit your talk!",
+        "widget-src": "https://www.sympla.com.br/js/sympla.widget-en.js/600507",
+        "tickets-for-sale": "Early Bird tickets for sale!"
     }
 }

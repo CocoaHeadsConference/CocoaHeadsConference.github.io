@@ -4,6 +4,9 @@ html {
 
 .cfp-background {
     background-color: #1E2029;
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
 
 #cfp {
@@ -15,7 +18,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
+    max-width: 1000px;
+    align-items: center;
     
     .content {
         display: flex;
@@ -53,10 +57,12 @@ html {
         padding-bottom: 10px;
         @media screen and (max-width: 900px) {
             font-size: 2.5rem;
+            line-height: 2.5rem;
         }
 
         @media screen and (max-width: 450px) {
             font-size: 1.5rem;
+            line-height: 1.5rem;
         }
 
         @media screen and (min-width: 900px) {
@@ -83,5 +89,11 @@ html {
         margin-bottom: 20px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
         width: 300px;
+    }
+
+    #sympla-widget-600507 {
+        @media screen and (min-width: 600px) {
+            width: 500px;
+        }
     }
 }
