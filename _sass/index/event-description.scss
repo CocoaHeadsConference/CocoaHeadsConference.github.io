@@ -1,16 +1,15 @@
 #event-description {
+
+    margin-bottom: 20px;
+    text-align: center;
+
+    p {
+        margin-bottom: 20px;
+    }
+
     .description {
         @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
             margin-bottom: 20px;
         }
-    }
-
-    .sympla {
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    img {
-        height: 100%;
     }
 }

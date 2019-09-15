@@ -1,0 +1,11 @@
+{% assign t = site.data.2019.i18n.tickets[page.lang] %}
+
+<div class='ticket-card {% if include.isSmaller %}smaller{% endif %}'>
+    <p class="title">{{t.title[include.title]}}</p>
+    {% if include.showtickets %}
+        <p class="description">{{include.ticketcount}} {{t.countlabel}}</p>
+    {% endif %}
+    <p class="price">{{include.price}}</p>
+    <p class="currency">BRL</p>
+    <p class="subtitle">{{t.subtitle[include.subtitle]}}</p>
+</div>

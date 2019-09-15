@@ -1,38 +1,38 @@
+{% assign t = site.data.2019.i18n.footer[page.lang] %}
+
 <footer id="footer">
-    <div class="container">  
-        <div class="row">
-            <div class="col-md-8">
-                <div class="row">
-                    Desenvolvido e mantido com <i class="fa fa-heart pomegranate"></i> pela comunidade CocoaHeads. <a href="">Colabore com a gente pelo GitHub!</a></span> 
-                </div>
-                <div class="row">
-                        <a href="https://iosdevbr.herokuapp.com">Participe da comunidade no Slack</a>
-                </div>
-            </div>              
-            <div class="col-md-4">
-                <div class="row social-holder">
-                    <div class="sp-social">
-                        <ul>
-                            <li>
-                                <a href="https://twitter.com/CocoaHeadsConf" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a>
-                            </li>                             
-                            <li>
-                                <a href="https://pt-br.facebook.com/CocoaHeadsBrasil/" target="_blank" class="social-btn"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/CocoaHeadsBrasil" target="_blank" class="social-btn"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/cocoaheadsbr/" target="_blank" class="social-btn"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://soundcloud.com/cocoaheadsbr" target="_blank" class="social-btn"><i class="fa fa-soundcloud"></i></a>
-                            </li>                             
-                        </ul>                         
-                    </div>                     
-                </div>  
-            </div>
+    <div>
+        <a href="https://cocoaheads.com.br">
+                <img src="{{t.madebyimage}}">
+        </a>
+    </div>
+
+    <div class="container">
+        <div>
+                {{t.madeby}}
+                {{t.collaborate}} <br>
+                {{t.joincommunity}}
         </div>
-    </div>  
+
+        <div>
+            <div class="social-holder">
+                <div class="sp-social">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/nsbrazilconf" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a>
+                        </li>                             
+                        <li>
+                            <a href="https://github.com/CocoaHeadsBrasil" target="_blank" class="social-btn"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cocoaheadsbr/" target="_blank" class="social-btn"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://soundcloud.com/cocoaheadsbr" target="_blank" class="social-btn"><i class="fa fa-soundcloud"></i></a>
+                        </li>                             
+                    </ul>                         
+                </div>                     
+            </div>  
+        </div>  
+    </div>
 </footer>
-<script src="https://www.sympla.com.br/js/sympla.widget-pt.js/376152"></script> 

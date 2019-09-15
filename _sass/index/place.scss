@@ -1,10 +1,36 @@
 #place {
+    margin-bottom: 20px; 
+
+    h1, h3 {
+        text-align: center;
+    }
+
+    .where {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        justify-content: space-evenly;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .container {
+        display: flex;
+    }
+
     #map {
         margin-top: 20px;
         height: 400px;
+        width: 90vw;
+    }
+
+    .mk-map-view {
+        border-radius: 15px;
     }
 
     strong {
-        color: black;
+        color: white;
     }
 }

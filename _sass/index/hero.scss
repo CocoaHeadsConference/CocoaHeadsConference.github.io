@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: url('/images/ch-background.png');
-    background-size: cover;
+    justify-content: center;
     padding: 10px;
     padding-bottom: 20px;
+    width: 100vw;
+    background: linear-gradient(#1E2029BB 95%, $bgcol 100%), url("/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 20px;
 
     img {
         @media screen and (min-width: 485px) and (max-width: 757px) {
@@ -49,13 +55,6 @@
         }
     }
 
-    nav {
-        display: flex; 
-        justify-content: flex-end;
-        padding: 20px;
-        font-size: 2rem;
-    }
-    
     a {
         color: white;
     }

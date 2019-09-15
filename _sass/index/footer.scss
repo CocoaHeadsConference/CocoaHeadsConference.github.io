@@ -3,6 +3,19 @@
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     padding: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
     
     .social-holder {
         @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){

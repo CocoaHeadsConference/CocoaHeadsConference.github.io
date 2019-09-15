@@ -1,0 +1,32 @@
+{% assign t = site.data.2019.i18n.tickets[page.lang] %}
+
+<section id='tickets'>
+    <div class="cards">
+            {% include index/ticket-card.html
+                title="earliest"
+                ticketcount="50"                
+                price="150"
+                subtitle="soldout"
+                isSmaller=true
+            %}
+        
+            {% include index/ticket-card.html
+                title="early"
+                ticketcount="100"                
+                price="200"
+                subtitle="onsale"
+            %}
+        
+            {% include index/ticket-card.html
+                title="common"
+                showtickets=false
+                price="300"
+                subtitle="soon"
+                isSmaller=true
+            %}
+    </div>
+
+    <a href="https://www.sympla.com.br/nsbrazil__600507">
+        <button>{{t.buytickets}}</button>
+    </a>
+</section>
