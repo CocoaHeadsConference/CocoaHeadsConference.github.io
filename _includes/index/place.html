@@ -1,17 +1,26 @@
-<section id="place" class="index-section">
+{% assign t = site.data.2019.i18n.place[page.lang] %}
+ 
+<section id="place">
     <div class="container">
-        <h1>Como chegar?</h1>
-        <p>
-            O Nubank fica na <strong>Rua Capote Valente, 39</strong>, próximo a estação <strong>Oscar Freire da Linha 4 Amarela</strong> do metrô, e o <strong>bicicletário</strong> estará aberto a todos, sem custo. A diária do estacionamento para quem for de carro é de <strong>R$10,00</strong> e deve ser pago na entrada.
-        </p>
-        <a href="https://maps.apple.com/?address=Rua%20Capote%20Valente,%2039,%20Jardim%20Paulista,%20S%C3%A3o%20Paulo%20-%20SP,%2005409,%20Brasil&auid=15905546674757393787&ll=-23.561031,-46.673516&lsp=9902&q=Nubank&_ext=ChkKBAgEEBkKBAgFEAMKBQgGEN8BCgQIChAAEiQpAABIa+6RN8AxAABg53ZXR8A5AAAgCFGNN8BBAACgpPRUR8A%3D&t=m">
-            Veja como chegar pelo Apple Maps clicando aqui
-        </a>
-    </div>
-    <div class="container-fluid">
+        <div class="where">-
+            <h1>{{t.title}}</h1>
+            <p>
+                {{t.description}}
+            </p>
+            <a href="https://maps.apple.com/?address=Rua%20Capote%20Valente,%2039,%20Jardim%20Paulista,%20S%C3%A3o%20Paulo%20-%20SP,%2005409,%20Brasil&auid=15905546674757393787&ll=-23.561031,-46.673516&lsp=9902&q=Nubank&_ext=ChkKBAgEEBkKBAgFEAMKBQgGEN8BCgQIChAAEiQpAABIa+6RN8AxAABg53ZXR8A5AAAgCFGNN8BBAACgpPRUR8A%3D&t=m">
+                {{t.mapsLinkw}}
+            </a>
+    
+            <h3>Venue Sponsor</h3>
+            <img src="/images/cubo-inverse.svg">
+        </div>
+
         <div id="map"></div>
     </div>
 </section>
+
+
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
 <script>
     mapkit.init({
         authorizationCallback: function(done) { done("eyJhbGciOiJFUzI1NiIsImtpZCI6IlM4RkwyUjJQTTMifQ.eyJpc3MiOiI4Qzc0MzlSSkxHIiwiaWF0IjoxNTQwODM2Njc3LCJleHAiOjE1NDQ0MzY2Nzd9.ywfSJuRJfHHqVqEsj9Rq6_v5wkro_AKvJ5E2jgt4nPxsO--xcchzFaTkkZL9tHc1x4tEjLj-fE6DeqyfwFg8iA");
@@ -35,7 +44,7 @@
     var pointA = new mapkit.MarkerAnnotation(target, {
         draggable: false,
         selected: true,
-        title: "Nubank",
+        title: "CUBO",
         color: '#1ecf1a'
     });
 

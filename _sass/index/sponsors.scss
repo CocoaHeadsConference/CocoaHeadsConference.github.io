@@ -1,15 +1,25 @@
 #sponsors {
-    .nu {
-        border-radius: 100%;
-    }
-    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .platinum {
         display: flex;
         justify-content: space-evenly;
     }
 
+    h1 {
+        text-align: center;
+    }
+
+    .silver {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
     @media screen and (min-width: map-get($map: $container-max-widths, $key: md)){
-        padding: 80px;
         img {
             max-height: 200px;
             margin-top: 10px;
@@ -21,10 +31,6 @@
             width: 200px;
         }
 
-    }
-    
-    .silver {
-        margin-top: 40px;
     }
 
     @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){

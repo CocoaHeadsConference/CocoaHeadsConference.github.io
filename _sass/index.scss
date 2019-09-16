@@ -1,3 +1,8 @@
+$bgcol: #1E2029;
+$event-green: #69BD45;
+$event-yellow: #FFE900;
+$event-blue: #00BAE3;
+
 @import "index/hero.scss";
 @import "index/event-description.scss";
 @import "index/speakers.scss";
@@ -6,33 +11,28 @@
 @import "index/footer.scss";
 @import "index/place.scss";
 @import "index/sponsors.scss";
+@import "index/tickets.scss";
+@import "index/nav.scss";
 
-.index-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    p,a {
-        font-size: 1.3rem;
-        line-height: 2rem;
-        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
-            font-size: 1rem;
-            line-height: 1.5rem;
-        }
-        @media screen and (max-width: map-get($map: $container-max-widths, $key: lg)){
-            font-size: 1rem;
-            line-height: 1.5rem;
-        }
-    }
-
-    h1 {
-        font-size: 5rem;
-        font-weight: 600;
-        color: #4A4A4A;
-        @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
-            font-size: 4rem;
-        }
-    }
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        "Lucida Grande", "Segoe UI";
 }
 
-.bg-gray {
-    background-color: #F4F4F4;
+h1, h2, h3, h4 {
+    color: white;
+}
+
+button {
+    color: white;
+    border: 1px solid white;
+    background-color: $bgcol;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    font-size: 22px;
 }

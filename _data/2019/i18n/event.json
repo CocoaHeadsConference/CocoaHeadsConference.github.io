@@ -1,0 +1,10 @@
+{
+    "pt": {
+        "description": "A NSBrazil é a nova cara da CocoaHeads Conference, a maior conferência nacional focada exclusivamente em desenvolvimento para as plataformas Apple (iOS, watchOS, macOS, tvOS, iPadOS, etc). Serão quase 400 desenvolvedores e entusiastas de todo o Brasil e do mundo em talks e um fim de semana incríveis.",
+        "codeofconduct": "Leia nosso código de conduta!"
+    },
+    "en": {
+        "description": "NSBrazil is the third edition of CocoaHeads Conference, Brazil's biggest Apple technologies focused event. Almost 400 enthusiasts and developers from Brazil and worldwide will attend to watch incredible talks and have a blast in this amazing weekend!",
+        "codeofconduct": "Read our code of conduct"
+    }
+}

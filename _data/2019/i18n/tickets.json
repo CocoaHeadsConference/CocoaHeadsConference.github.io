@@ -1,0 +1,30 @@
+{
+    "pt": {
+        "title": {
+            "earliest": "Early Early Bird",
+            "early": "Early Bird",
+            "common": "Comum"
+        },
+        "subtitle": {
+            "soldout": "Esgotado",
+            "onsale": "A Venda",
+            "soon": "Em Breve"
+        },
+        "countlabel": "ingressos",
+        "buytickets": "Comprar Ingressos"
+    },
+    "en": {
+        "title": {
+            "earliest": "Early Early Bird",
+            "early": "Early Bird",
+            "common": "Standard"
+        },
+        "subtitle": {
+            "soldout": "Sold Out",
+            "onsale": "On Sale",
+            "soon": "Coming Soon"
+        },
+        "countlabel": "tickets",
+        "buytickets": "Buy Tickets"
+    }
+}

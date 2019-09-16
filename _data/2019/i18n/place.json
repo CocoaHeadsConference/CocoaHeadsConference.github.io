@@ -1,0 +1,20 @@
+{
+    "pt": {
+        "title": "Onde?",
+        "city": "São Paulo, SP - Brazil",
+        "date": "9 e 10 de Novembro",
+        "venue": "CUBO Itaú",
+        "venueAddress": "Alameda Vicente Pinzon, 54 - Vila Olímpia",
+        "description": "O CUBO Itaú fica na Alameda Vicente Pinzon, 54, próximo a estação Vila Olímpia da linha Esmeralda da CPTM.",
+        "mapsLink": "Veja como chegar clicando aqui"
+    },
+    "en": {
+        "title": "Where?",
+        "city": "São Paulo, SP - Brazil",
+        "date": "November 9th and 10th",
+        "venue": "CUBO Itaú",
+        "venueAddress": "Alameda Vicente Pinzon, 54 - Vila Olímpia",
+        "description": "CUBO Itaú is located on Alameda Vicente Pinzon, 54, at the heart of Sao Paulo's tech center, close to landmarks such as the Estaiada Bridge and the Pinheiros river.",
+        "mapsLink": "Veja como chegar clicando aqui"
+    }
+}
