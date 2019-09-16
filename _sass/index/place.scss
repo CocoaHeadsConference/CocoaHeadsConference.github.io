@@ -14,10 +14,18 @@
         img {
             width: 100%;
         }
+
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+            text-align: center;
+        }
     }
 
     .container {
         display: flex;
+
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+            flex-direction: column;
+        }
     }
 
     #map {
