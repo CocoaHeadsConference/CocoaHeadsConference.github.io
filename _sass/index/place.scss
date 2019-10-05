@@ -32,6 +32,10 @@
         margin-top: 20px;
         height: 400px;
         width: 90vw;
+        img {
+            border-radius: 20px;
+            max-height: 100%;
+        }
     }
 
     .mk-map-view {
