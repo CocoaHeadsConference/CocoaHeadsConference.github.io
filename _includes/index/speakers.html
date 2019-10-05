@@ -1,7 +1,9 @@
+{% assign t = site.data.2019.i18n.speakers[page.lang] %}
+
 <section id="speakers" class="index-section">
     <div class="container">
         <h1>Speakers & Talks</h1>
-        <p>Confira as algumas das talks que vão rolar no evento. Mais palestrantes em breve!</p>
+        <p>{{t.comingsoon}}</p>
         <div class="row">
 
             {% include index/speaker-block.html 
@@ -45,7 +47,7 @@
             {% include index/speaker-block.html 
                 image="/images/team/bruno-rocha.jpeg"
                 name="Bruno Rocha"
-                title="Creating iOS aps with Buck without working in the Valley" %}
+                title="Creating iOS apps with Buck without working in the Valley" %}
         
                 {% comment %}
             {% include index/speaker-block.html 
