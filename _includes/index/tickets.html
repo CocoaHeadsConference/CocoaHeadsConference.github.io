@@ -1,23 +1,7 @@
 {% assign t = site.data.2019.i18n.tickets[page.lang] %}
 
 <section id='tickets'>
-    <div class="cards">
-            {% include index/ticket-card.html
-                title="earliest"
-                ticketcount="50"                
-                price="150"
-                subtitle="soldout"
-                isSmaller=true
-            %}
-        
-            {% include index/ticket-card.html
-                title="early"
-                ticketcount="100"                
-                price="200"
-                subtitle="soldout"
-                isSmaller=true
-            %}
-        
+    <div class="cards">       
             {% include index/ticket-card.html
                 title="common"
                 showtickets=false
