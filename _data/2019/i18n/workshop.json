@@ -1,0 +1,16 @@
+{
+    "pt": {
+        "workshop": "Workshop de introdução ao SwiftUI com Daniel Steinberg",
+        "description": "Você quer entender quais são as novidades sobre o SwiftUI mas você tem apps publicados que precisa manter e dar suporte a versões velhas do iOS? Essa sessão de hands-on foi feita para para você! Em algumas horas você terá um bom feeling de como o SwiftUI funciona.",
+        "tickets": "Serão duas turmas com 3h de duração no dia 8 de novembro, um dia antes do evento principal.",
+        "buytickets": "Ingressos a venda nesta sexta",
+        "notranslation": "Atenção: este workshop será em inglês e não terá tradução simultânea, e cada ingresso do workshop dá direito a participar de uma turma apenas"
+    },
+    "en": {
+        "workshop": "Intro to SwiftUI Workshop with Daniel Steinberg",
+        "description": "You’d like to see what all the fuss is about SwiftUI but you have shipping apps to maintain and you have to support older iOS releases. This fast-paced, hands-on tutorial is the workshop for you! In a few hours you will get a feel for how SwiftUI works.",
+        "tickets": "Daniel's workshop will be on November 8th, NSBrazil's workshop day, a day before the main event starts.",
+        "buytickets": "Tickets for the workshop on sale this friday",
+        "notranslation": "Attention: each ticket for the workshop is for a single workshop session"
+    }
+}

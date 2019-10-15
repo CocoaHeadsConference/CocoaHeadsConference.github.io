@@ -1,0 +1,46 @@
+#workshop {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    .content {
+        display: flex;
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+            flex-direction: column;
+        }
+    }
+
+    .image {
+        @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+            display: flex;
+            align-self: center;
+        }
+        img {
+            border-radius: 100%;
+            @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
+                
+            }
+        }
+    }
+
+    .text {
+        margin-left: 40px;
+        margin-right: 40px;
+
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        span {
+            margin-top: 20px;
+            color: #CCCCCC;
+        }
+    }
+
+    a {
+        align-self: center;
+        margin-top: 20px;
+    }
+}
