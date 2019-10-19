@@ -7,31 +7,47 @@
     .platinum {
         display: flex;
         justify-content: space-evenly;
+
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: md)){
+            img {
+                max-height: 300px;
+                margin-top: 10px;
+            }
+        }
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: md)) and 
+                          (max-width: map-get($map: $container-max-widths, $key: lg)) {
+            img {
+                width: 300px;
+            }
+        }
     }
 
     h1 {
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .silver {
         display: flex;
         justify-content: center;
         padding: 20px;
+
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: md)){
+            img {
+                max-height: 200px;
+                margin-top: 10px;
+            }
+        }
+        @media screen and (min-width: map-get($map: $container-max-widths, $key: md)) and 
+                          (max-width: map-get($map: $container-max-widths, $key: lg)) {
+            img {
+                width: 200px;
+            }
+        }
+
     }
 
-    @media screen and (min-width: map-get($map: $container-max-widths, $key: md)){
-        img {
-            max-height: 200px;
-            margin-top: 10px;
-        }
-    }
-    @media screen and (min-width: map-get($map: $container-max-widths, $key: md)) and 
-                      (max-width: map-get($map: $container-max-widths, $key: lg)) {
-        img {
-            width: 200px;
-        }
 
-    }
 
     @media screen and (max-width: map-get($map: $container-max-widths, $key: sm)){
         h1 {
