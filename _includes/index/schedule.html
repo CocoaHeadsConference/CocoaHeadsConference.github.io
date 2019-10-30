@@ -2,33 +2,18 @@
     <div class="container">
         <h1>Horários</h1>
         <div class="row">
-            <h2 class="date">Sexta-feira, 09/11</h2>
+            <h2 class="date">Sábado, 09/11</h2>
                 {% comment %} Isso vai ficar bem feio porque o Liquid não suporta arrays de verdade {%endcomment%}
-                {% for talk in site.data.2018.talks.talks %}
-                    {% assign date = talk.date | date: "%d" %}
-                    {% if date == '09' %} 
-                        {% include index/schedule-block.html 
-                            talk = talk.id
-                        %}
-                    {% endif %}
-                {% endfor %}	
-            <h2 class="date">Sábado, 10/11</h2>
-                {% for talk in site.data.2018.talks.talks %}
-                    {% assign date = talk.date | date: "%d" %}
-                    {% if date == '10' %} 
-                        {% include index/schedule-block.html 
-                            talk = talk.id
-                        %}
-                    {% endif %}
-                {% endfor %}	
-            <h2 class="date">Domingo, 11/11</h2>
-                {% for talk in site.data.2018.talks.talks %}
-                    {% assign date = talk.date | date: "%d" %}
-                    {% if date == '11' %} 
-                        {% include index/schedule-block.html 
-                            talk = talk.id
-                        %}
-                    {% endif %}
-                {% endfor %}	
+                {% for talk in site.data.2019.schedule.saturday %}
+                    {% include index/schedule-block.html 
+                        talk = talk
+                    %}
+                {% endfor %}
+            <h2 class="date">Domingo, 10/11</h2>
+                {% for talk in site.data.2019.schedule.sunday %}
+                    {% include index/schedule-block.html 
+                        talk = talk
+                    %}
+                {% endfor %}
         </div>
 </section>
