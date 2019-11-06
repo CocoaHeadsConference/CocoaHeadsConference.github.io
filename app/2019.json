@@ -95,9 +95,21 @@
                     "link": "https://mercadolivre.com.br",
                     "image": "https://nsbrazil.com/images/app/meli-logo.png",
                     "backgroundColor": "#FEE801"
+                },
+                {
+                    "name": "Banco Inter",
+                    "link": "https://www.bancointer.com.br",
+                    "image": "https://nsbrazil.com/images/app/inter-logo.png",
+                    "backgroundColor": "#FF7A00"
                 }
             ],
             "gold": [
+                {
+                    "name": "iFood",
+                    "link": "https://www.ifood.com.br",
+                    "image": "https://nsbrazil.com/images/app/ifood-logo.png",
+                    "backgroundColor": "#ea1d2c"
+                }
             ],
             "silver": [
                 {
