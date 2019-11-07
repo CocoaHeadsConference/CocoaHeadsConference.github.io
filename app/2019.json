@@ -119,6 +119,12 @@
                     "backgroundColor": "#333333"
                 }
             ]
+        },
+        {
+            "type": "subtitle",
+            "textStyle": "header",
+            "text": "Pra você que chegou até aqui:",
+            "subtext": "Fica ligado: no final do evento vamos sortear alguns gifts irados, desde livros até um par de AirPods!"
         }
     ],
     "schedule": [
