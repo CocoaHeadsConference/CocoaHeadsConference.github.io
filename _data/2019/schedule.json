@@ -51,23 +51,30 @@
             "name":"Colocando SwiftUI em produção!",
             "image":"https://nsbrazil.com/images/team/douglas-ferreira.jpg"
          },
-         {
+         {		          
             "type":"talk",
             "date":"2019-11-09T11:15:00-0300",
+            "speaker":"Victor Augusto Borges Dias de Almeida",		
+            "name":"Ideias Inspiradoras em Realidade Aumentada",		
+            "image":"https://nsbrazil.com/images/team/victor-almeida.png"		
+         },
+         {
+            "type":"talk",
+            "date":"2019-11-09T11:25:00-0300",
             "speaker":"Aline Borges",
             "name":"10 dicas para apresentar uma Tech Talk. Você não vai acreditar na n 6!",
             "image":"https://nsbrazil.com/images/team/aline-borges.png"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T11:30:00-0300",
+            "date":"2019-11-09T11:40:00-0300",
             "speaker":"Henrique Morbin e Rafael Machado",
             "name":"Você já testou os seus testes?",
             "image":"https://nsbrazil.com/images/team/henrique-rafael.jpg"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T12:00:00-0300",
+            "date":"2019-11-09T12:10:00-0300",
             "speaker":"-",
             "name":"Almoço",
             "image":""

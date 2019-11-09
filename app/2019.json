@@ -132,12 +132,6 @@
             "type": "filterFeed",
             "feeds": [
                 {
-                    "title": "Sexta",
-                    "feedItems": [{% for talk in site.data.2019.schedule.friday %}
-                           {{talk | jsonify }}{% unless forloop.last %},{% endunless %}
-                        {% endfor %}]
-                },
-                {
                     "title": "Sábado",
                     "feedItems": [{% for talk in site.data.2019.schedule.saturday %}
                         {{talk | jsonify }}{% unless forloop.last %},{% endunless %}
