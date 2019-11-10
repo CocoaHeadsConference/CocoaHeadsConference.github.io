@@ -175,16 +175,16 @@
          {
             "type":"talk",
             "date":"2019-11-09T10:50:00-0300",
-            "speaker":"Roberth Diorges ",
-            "name":"Auditoria de performance com Xcode Instruments",
-            "image":"https://nsbrazil.com/images/team/roberth-diorges.jpg"
+            "speaker":"Rafael Bertholdo",
+            "name":"Resolvendo problemas com técnicas de engenharia reversa",
+            "image":""
          },
          {
             "type":"talk",
             "date":"2019-11-09T11:20:00-0300",
-            "speaker":"Rafael Bertholdo",
-            "name":"Resolvendo problemas com técnicas de engenharia reversa",
-            "image":""
+            "speaker":"Roberth Diorges",
+            "name":"Auditoria de performance com Xcode Instruments",
+            "image":"https://nsbrazil.com/images/team/roberth-diorges.jpg"
          },
          {
             "type":"talk",
