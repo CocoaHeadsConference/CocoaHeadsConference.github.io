@@ -167,66 +167,73 @@
          },
          {
             "type":"talk",
-            "date":"2019-11-09T10:20:00-0300",
+            "date":"2019-11-09T10:10:00-0300",
             "speaker":"Ândriu Felipe Coelho e Vinicius Campos Garcia",
             "name":"Design Patterns - Melhore a qualidade do seu código",
             "image":"https://nsbrazil.com/images/team/andriu-vinicius.png"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T10:50:00-0300",
+            "date":"2019-11-09T10:30:00-0300",
             "speaker":"Rafael Bertholdo",
             "name":"Resolvendo problemas com técnicas de engenharia reversa",
             "image":""
          },
          {
             "type":"talk",
-            "date":"2019-11-09T11:20:00-0300",
+            "date":"2019-11-09T10:50:00-0300",
             "speaker":"Roberth Diorges",
             "name":"Auditoria de performance com Xcode Instruments",
             "image":"https://nsbrazil.com/images/team/roberth-diorges.jpg"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T11:50:00-0300",
+            "date":"2019-11-09T11:20:00-0300",
             "speaker":"Charles Lima e Rodrigo Longhi Guimarães",
             "name":"Deep dive em segurança para aplicativos iOS",
             "image":"https://nsbrazil.com/images/team/rodrigo-charles.png"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T12:20:00-0300",
+            "date":"2019-11-09T11:50:00-0300",
             "speaker":"Aline Borges",
             "name":"Feature flag all things",
             "image":"https://nsbrazil.com/images/team/aline-borges.png"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T13:00:00-0300",
+            "date":"2019-11-09T12:30:00-0300",
             "speaker":"",
             "name":"Almoço",
             "image":""
          },
          {
             "type":"talk",
-            "date":"2019-11-09T14:00:00-0300",
+            "date":"2019-11-09T13:40:00-0300",
             "speaker":"Frederico De Paola",
             "name":"Acessibilidade além do código com Swift",
             "image":"https://nsbrazil.com/images/team/freddy-paola.jpg"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T14:30:00-0300",
+            "date":"2019-11-09T14:10:00-0300",
             "speaker":"Walmyr Carvalho e Caio Mariano",
             "name":"Indo além do Keychain: Boas práticas e técnicas modernas de segurança para aplicações iOS",
             "image":"https://nsbrazil.com/images/team/walmyr-caio.jpg"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T15:00:00-0300",
+            "date":"2019-11-09T14:50:00-0300",
             "speaker":"Bruno Delgado",
             "name":"Modularizando o seu aplicativo",
             "image":"https://nsbrazil.com/images/team/bruno-delgado.jpg"
+         },
+         {
+            "type":"talk",
+            "date":"2019-11-09T15:20:00-0300",
+            "speaker":"Mercado Livre",
+            "name":"Talk Patrocinada",
+            "image":""
          },
          {
             "type":"talk",
@@ -238,34 +245,27 @@
          {
             "type":"talk",
             "date":"2019-11-09T16:20:00-0300",
-            "speaker":"Mercado Livre",
-            "name":"Talk Patrocinada",
-            "image":""
-         },
-         {
-            "type":"talk",
-            "date":"2019-11-09T16:30:00-0300",
             "speaker":"Michel Bueno e Larissa Barra",
             "name":"Advanced debugging in XCode",
             "image":"https://nsbrazil.com/images/team/larissa-michel.jpg"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T17:00:00-0300",
+            "date":"2019-11-09T16:50:00-0300",
             "speaker":"Txai Wieser",
             "name":"Quem botou Swift na minha UI?",
             "image":"https://nsbrazil.com/images/team/txai-wieser.jpg"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T17:30:00-0300",
+            "date":"2019-11-09T17:20:00-0300",
             "speaker":"Ricardo Rachaus",
             "name":"The Roots of Metal",
             "image":"https://nsbrazil.com/images/team/ricardo-rachaus.JPG"
          },
          {
             "type":"talk",
-            "date":"2019-11-09T18:00:00-0300",
+            "date":"2019-11-09T17:50:00-0300",
             "speaker":"NSBrazil",
             "name":"Encerramento e Sorteios",
             "image":""
