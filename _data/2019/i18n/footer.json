@@ -6,9 +6,9 @@
         "joincommunity": "<a href=\"https://iosdevbr.herokuapp.com\">Participe da comunidade no Slack</a>"
     },
     "en": {
-        "madebyimage": "/images/eventochbr.png",
+        "madebyimage": "/images/eventochbr-en.png",
         "madeby": "Developed and maintained with <i class=\"fa fa-heart pomegranate\"></i> by the CocoaHeads.br community<br>",
         "collaborate": "<a href=\"https://github.com/CocoaHeadsConference/CocoaHeadsConference.github.io\">Collaborate with us via GitHub!</a></span>",
         "joincommunity": "<a href=\"https://iosdevbr.herokuapp.com\">Join our Slack community</a>"
     }
-}
+}p

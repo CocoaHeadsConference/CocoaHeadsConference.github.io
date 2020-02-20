@@ -1,0 +1,16 @@
+{
+    "pt": {
+        "title": "Patrocinado por",
+        "venue": "Venue",
+        "platinum": "Platinum",
+        "silver": "Silver",
+        "sponsorswanted": "Quer patrocinar a NSBrazil?"
+    },
+    "en": {
+        "title": "Sponsored by",
+        "venue": "Venue",
+        "platinum": "Platinum",
+        "silver": "Silver",
+        "sponsorswanted": "Want to sponsor NSBrazil?"   
+    }
+}

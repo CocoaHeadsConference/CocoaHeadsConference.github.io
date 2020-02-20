@@ -1,0 +1,14 @@
+{
+    "pt": {
+        "supertitle": "Speakers",
+        "name": "John Sundell",
+        "subtitle": "Criador do Swift by Sundell",
+        "description": "John cria apps, jogos e ferramentas para desenvolvedores. Ele também fez o Swift by Sundell - uma série de artigos semanais e um podcast sobre desenvolvimento com Swift, e é um dos hosts do podcast Stacktrace. Trabalhou para empresas como Volvo e Spotify, e agora trabalha criando aplicativos, ferramentas e conteúdos para a comunidade Swift.",
+    },
+    "en": {
+        "supertitle": "Speakers",
+        "name": "John Sundell",
+        "subtitle": "Creator of Swift by Sundell",
+        "description": "John builds apps, games and developer tools. He also makes Swift by Sundell — a series of weekly articles and a podcast about Swift development, and co-hosts the Stacktrace podcast. He has worked for companies like Volvo and Spotify, and is now working full-time on creating apps, tools and content for the Swift community.",
+    }
+}
