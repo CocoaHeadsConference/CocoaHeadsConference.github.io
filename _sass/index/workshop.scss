@@ -3,7 +3,14 @@
     flex-direction: column;
     margin-bottom: 40px;
 
+    h1 {
+        text-align: center;
+    }
+
+
+
     .content {
+        margin-top: 20px;
         display: flex;
         @media screen and (max-width: map-get($map: $container-max-widths, $key: md)){
             flex-direction: column;
@@ -27,10 +34,16 @@
         margin-left: 40px;
         margin-right: 40px;
 
+        .caption {
+            margin-top: 0;
+            color: white;
+            font-style: italic;
+        }
+
         p {
             margin-top: 20px;
             font-size: 20px;
-            line-height: 20px;
+            line-height: 25px;
         }
 
         span {

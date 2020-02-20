@@ -1,19 +1,15 @@
-{% assign t = site.data.2019.i18n.workshop[page.lang] %}
+{% assign t = site.data.2020.i18n.workshop[page.lang] %}
 
 <section class="container" id="workshop">
+    <h1>{{t.supertitle}}</h1>
     <div class="content">
         <div class="image">
-            <img src="/images/team/daniel-steinberg.jpg" alt="">
+            <img src="/images/team/john-sundell.jpg" alt="">
         </div>
         <div class="text">
-            <h1>{{t.workshop}}</h1>
+            <h2>{{t.name}}</h2>
+            <p class="caption">{{t.subtitle}}</p>
             <p>{{t.description}}</p>
-            <p>{{t.tickets}}</p>
-            <p><span>{{t.notranslation}}</span></p>
         </div>
     </div>
-    
-    <a href="https://www.sympla.com.br/swiftui-workshop-with-daniel-steinberg__684000">
-        <button>{{t.buytickets}}</button>
-    </a>
 </section>

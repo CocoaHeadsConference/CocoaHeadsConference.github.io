@@ -5,15 +5,27 @@
     "version": 1,
     "feed": [
         {
+            "type": "subtitle",
+            "textStyle": "header",
+            "text": "A NSBrazil está de volta para 2020!",
+            "subtext": "A maior conferência de plataformas Apple do Brasil estará de volta nos dias 4, 5 e 6 de novembro, recheada de novidades! Nosso primeiro convidado é John Sundell, criador do site Swift by Sundell"
+        },
+        {
+            "type": "subtitle",
+            "textStyle": "header",
+            "text": "Dias 4, 5 e 6 de novembro",
+            "subtext": "A conferência será novamente no CUBO Itaú, nosso patrocinador master, com apoio do app AirBuddy. Desta vez teremos um dia inteiro de workshops pré-evento e dois dias com palestras incríveis"
+        },
+        {
             "type": "text",
             "textStyle": "header",
-            "text": "O evento nacional do CocoaHeads Brasil"
+            "text": "Call For Papers em breve!",
         },
         {
             "type": "date",
             "dates": [
-                "2019-11-09T09:00:00-0300",
-                "2019-11-10T09:00:00-0300"
+                "2020-11-04T09:00:00-0300",
+                "2020-11-06T09:00:00-0300",
             ]
         },
         {
@@ -85,31 +97,14 @@
         {
             "type": "text",
             "textStyle": "header",
-            "text": "A NSBrazil é apoiada por"
+            "text": "A NSBrazil20 é apoiada por"
         },
         {
             "type": "sponsors",
             "platinum": [
-                {
-                    "name": "MercadoLivre",
-                    "link": "https://mercadolivre.com.br",
-                    "image": "https://nsbrazil.com/images/app/meli-logo.png",
-                    "backgroundColor": "#FEE801"
-                },
-                {
-                    "name": "Banco Inter",
-                    "link": "https://www.bancointer.com.br",
-                    "image": "https://nsbrazil.com/images/app/inter-logo.png",
-                    "backgroundColor": "#FF7A00"
-                }
             ],
             "gold": [
-                {
-                    "name": "iFood",
-                    "link": "https://www.ifood.com.br",
-                    "image": "https://nsbrazil.com/images/app/ifood-logo.png",
-                    "backgroundColor": "#ea1d2c"
-                }
+
             ],
             "silver": [
                 {
@@ -119,12 +114,6 @@
                     "backgroundColor": "#333333"
                 }
             ]
-        },
-        {
-            "type": "subtitle",
-            "textStyle": "header",
-            "text": "Pra você que chegou até aqui:",
-            "subtext": "Fica ligado: no final do evento vamos sortear alguns gifts irados, desde livros até um par de AirPods!"
         }
     ],
     "schedule": [
@@ -132,16 +121,36 @@
             "type": "filterFeed",
             "feeds": [
                 {
-                    "title": "Sábado",
-                    "feedItems": [{% for talk in site.data.2019.schedule.saturday %}
-                        {{talk | jsonify }}{% unless forloop.last %},{% endunless %}
-                     {% endfor %}]
+                    "title": "Quarta",
+                    "feedItems": [
+                        {
+                            "type":"talk",
+                            "date":"2019-11-04T09:00:00-0300",
+                            "speaker":"NSBrazil",
+                            "name":"Bem-vindos a NSBrazil 2020!",
+                            "image":""
+                         },
+                    ]
                 },
                 {
-                    "title": "Domingo",
-                    "feedItems": [{% for talk in site.data.2019.schedule.sunday %}
-                     {{talk | jsonify }}{% unless forloop.last %},{% endunless %}
-                     {% endfor %}]
+                    "title": "Quinta",
+                    "feedItems": [{
+                        "type":"talk",
+                        "date":"2019-11-05T09:00:00-0300",
+                        "speaker":"NSBrazil",
+                        "name":"Bem-vindos a NSBrazil 2020!",
+                        "image":""
+                     },]
+                },
+                {
+                    "title": "Sexta",
+                    "feedItems": [{
+                        "type":"talk",
+                        "date":"2019-11-04T09:00:00-0300",
+                        "speaker":"NSBrazil",
+                        "name":"Bem-vindos a NSBrazil 2020!",
+                        "image":""
+                     },]
                 }
             ]
         }
