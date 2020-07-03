@@ -1,0 +1,5 @@
+We were very excited for this year's NSBrazil and our planning didn't stop, but unfortunately, due to the pandemic and the uncertainty of what's to come, and in respect to our partners, sponsors, speakers and you, we have to make a decision as early as possible.
+
+That's why we've decided to postpone NSBrazil's next conference, NSBrazil 2020. We were really excited for this year's event, with lots of speakers from all around the world coming to Brazil, but with the current situation in our country and what we've come to expect from our event, it is unfeasible to host it this year. We see a lot of value in face-to-face interaction want to be yet another online event.
+
+We still don't have a date for our next event and our current venue has no expectations of opening for events this year, but we hope to see you as soon as possible.
