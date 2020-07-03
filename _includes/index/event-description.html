@@ -5,9 +5,9 @@
    
     <div class="container">
         <div class="description">
-            <p>
-               {{t.description}} 
-            </p>
+            {% capture postponed %}{% include index/_i18n/{{page.lang}}/postponed.md %}{% endcapture %}
+            {{postponed | markdownify }}
+            
 
             <a href="https://github.com/iOSDevBR/Codigo-De-Conduta">
                 <button>
