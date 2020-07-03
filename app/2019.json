@@ -7,43 +7,21 @@
         {
             "type": "subtitle",
             "textStyle": "header",
-            "text": "A NSBrazil está de volta para 2020!",
-            "subtext": "A maior conferência de plataformas Apple do Brasil estará de volta nos dias 4, 5 e 6 de novembro, recheada de novidades! Nosso primeiro convidado é John Sundell, criador do site Swift by Sundell"
+            "text": "A NSBrazil 2020 foi adiada",
+            "subtext": "Veja o comunicado no site"
         },
         {
-            "type": "subtitle",
-            "textStyle": "header",
-            "text": "Dias 4, 5 e 6 de novembro",
-            "subtext": "A conferência será novamente no CUBO Itaú, nosso patrocinador master, com apoio do app AirBuddy. Desta vez teremos um dia inteiro de workshops pré-evento e dois dias com palestras incríveis"
-        },
-        {
-            "type": "text",
-            "textStyle": "header",
-            "text": "Call For Papers em breve!",
-        },
-        {
-            "type": "date",
-            "dates": [
-                "2020-11-04T09:00:00-0300",
-                "2020-11-06T09:00:00-0300",
-            ]
-        },
-        {
-            "type": "map",
-            "lat": -23.5965911,
-            "lng": -46.6867937,
-            "span": {
-                "latDelta": 0.01,
-                "lngDelta": 0.01
-            },
-            "title": "CUBO Itaú - Alameda Vicente Pinzon,54",
-            "subtitle": "Vila Olímpia - SP"
-        },
-        {
-            "type": "subtitle",
-            "textStyle": "header",
-            "text": "Enquanto a NSBrazil não chega",
-            "subtext": "Assista vídeos das edições anteriores e dos meetups que rolam pelo país"
+          "type": "videos",
+          "title": "",
+          "subtitle": "",
+          "videos": [
+              {
+                  "title":"Comunicado NSBrazil",
+                  "speaker": "",
+                  "background": "https://nsbrazil.com/",
+                  "link": "https://nsbrazil.com"
+              }
+          ]  
         },
         {
             "type": "videos",
@@ -97,7 +75,7 @@
         {
             "type": "text",
             "textStyle": "header",
-            "text": "A NSBrazil20 é apoiada por"
+            "text": "A NSBrazil é apoiada por"
         },
         {
             "type": "sponsors",
@@ -127,7 +105,7 @@
                             "type":"talk",
                             "date":"2019-11-04T09:00:00-0300",
                             "speaker":"NSBrazil",
-                            "name":"Bem-vindos a NSBrazil 2020!",
+                            "name":"A NSBrazil foi adiada",
                             "image":""
                          },
                     ]
@@ -138,7 +116,7 @@
                         "type":"talk",
                         "date":"2019-11-05T09:00:00-0300",
                         "speaker":"NSBrazil",
-                        "name":"Bem-vindos a NSBrazil 2020!",
+                        "name":"A NSBrazil foi adiada",
                         "image":""
                      },]
                 },
@@ -148,7 +126,7 @@
                         "type":"talk",
                         "date":"2019-11-04T09:00:00-0300",
                         "speaker":"NSBrazil",
-                        "name":"Bem-vindos a NSBrazil 2020!",
+                        "name":"A NSBrazil foi adiada",
                         "image":""
                      },]
                 }
