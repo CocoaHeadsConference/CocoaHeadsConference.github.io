@@ -7,21 +7,8 @@
         {
             "type": "subtitle",
             "textStyle": "header",
-            "text": "A NSBrazil 2020 foi adiada",
+            "text": "A NSBrazil foi adiada",
             "subtext": "Veja o comunicado no site"
-        },
-        {
-          "type": "videos",
-          "title": "",
-          "subtitle": "",
-          "videos": [
-              {
-                  "title":"Comunicado NSBrazil",
-                  "speaker": "",
-                  "background": "https://nsbrazil.com/",
-                  "link": "https://nsbrazil.com"
-              }
-          ]  
         },
         {
             "type": "videos",
@@ -73,6 +60,19 @@
             ]
         },
         {
+          "type": "videos",
+          "title": "",
+          "subtitle": "",
+          "videos": [
+              {
+                  "title":"Comunicado NSBrazil",
+                  "speaker": "",
+                  "background": "https://nsbrazil.com/",
+                  "link": "https://nsbrazil.com"
+              }
+          ]  
+        },
+        {
             "type": "text",
             "textStyle": "header",
             "text": "A NSBrazil é apoiada por"
@@ -103,33 +103,20 @@
                     "feedItems": [
                         {
                             "type":"talk",
-                            "date":"2019-11-04T09:00:00-0300",
-                            "speaker":"NSBrazil",
-                            "name":"A NSBrazil foi adiada",
+                            "date":"2024-11-04T19:00:00-0300",
+                            "speaker":"Leonardo Saragiotto",
+                            "name":"Desafios Mobile PicPay",
                             "image":""
                          },
+                         {
+                          "type":"talk",
+                          "date":"2024-11-05T19:00:00-0300",
+                          "speaker":"Luis Filipe Alves Oliveira",
+                          "name":"Widgets no iOS",
+                          "image":""
+                        }
                     ]
                 },
-                {
-                    "title": "Quinta",
-                    "feedItems": [{
-                        "type":"talk",
-                        "date":"2019-11-05T09:00:00-0300",
-                        "speaker":"NSBrazil",
-                        "name":"A NSBrazil foi adiada",
-                        "image":""
-                     },]
-                },
-                {
-                    "title": "Sexta",
-                    "feedItems": [{
-                        "type":"talk",
-                        "date":"2019-11-04T09:00:00-0300",
-                        "speaker":"NSBrazil",
-                        "name":"A NSBrazil foi adiada",
-                        "image":""
-                     },]
-                }
             ]
         }
     ]
